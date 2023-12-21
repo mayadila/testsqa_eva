@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View</name>
+   <tag></tag>
+   <elementGuidId>e610a2ac-76fb-45dc-a9e1-44a2c4f92430</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='treeview-1014-record-5']/tbody/tr/td/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ac461fc9-f0ea-4517-bec1-09c27dc63f4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x-tree-node-text </value>
+      <webElementGuid>1affc704-215b-40fe-b2aa-29b38388c409</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>3168979a-7039-4c3a-8885-55f9b0dbcaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;treeview-1014-record-5&quot;)/tbody[1]/tr[@class=&quot;x-grid-tree-node-leaf  x-grid-row&quot;]/td[@class=&quot;x-grid-cell x-grid-td x-grid-cell-treecolumn-1013 x-grid-cell-treecolumn x-grid-cell-first x-grid-cell-last x-unselectable x-grid-item-focused&quot;]/div[@class=&quot;x-grid-cell-inner x-grid-cell-inner-treecolumn&quot;]/span[@class=&quot;x-tree-node-text&quot;]</value>
+      <webElementGuid>6b2bdfaa-da88-408d-89c3-99785660c16b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='treeview-1014-record-5']/tbody/tr/td/div/span</value>
+      <webElementGuid>e4e0539d-1a17-475b-b475-245acfce9d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[4]/tbody/tr/td/div/span</value>
+      <webElementGuid>11931397-31b0-4ea0-b28e-99fd7677f81f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'View' or . = 'View')]</value>
+      <webElementGuid>a48f1cec-4868-4205-b20b-c879d8e5b5cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
