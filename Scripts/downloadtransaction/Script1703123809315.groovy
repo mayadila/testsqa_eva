@@ -17,3 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.setText(findTestObject('Object Repository/downloadtransaction/input_txtUsername'), GlobalVariable.username)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/downloadtransaction/input_txtPassword'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Login'))
+
+WebUI.doubleClick(findTestObject('Object Repository/downloadtransaction/span_Engineer Test'))
+
+WebUI.doubleClick(findTestObject('Object Repository/downloadtransaction/span_Transaction'))
+
+WebUI.doubleClick(findTestObject('Object Repository/downloadtransaction/span_View'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export Current Page'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export All Page'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
