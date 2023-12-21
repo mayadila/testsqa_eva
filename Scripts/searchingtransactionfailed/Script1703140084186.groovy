@@ -17,3 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_txtUsername'), GlobalVariable.username)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/searchingtransactionfailed/input_txtPassword'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Object Repository/searchingtransactionfailed/span_Login'))
+
+WebUI.doubleClick(findTestObject('Object Repository/searchingtransactionfailed/span_Engineer Test'))
+
+WebUI.doubleClick(findTestObject('Object Repository/searchingtransactionfailed/span_Transaction'))
+
+WebUI.doubleClick(findTestObject('Object Repository/searchingtransactionfailed/span_View'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'), '1994-12-12')
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_textfield-1021'), 'maya')
+
+WebUI.delay(4)
+
+WebUI.clearText(findTestObject('searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'))
+
+WebUI.clearText(findTestObject('searchingtransactionfailed/input_textfield-1021'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'), '12-12-2023')
+
+WebUI.delay(4)
+
+WebUI.clearText(findTestObject('searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_textfield-1029'), 'Yogyakarta')
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
