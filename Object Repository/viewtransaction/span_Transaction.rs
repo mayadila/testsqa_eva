@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Transaction</name>
+   <tag></tag>
+   <elementGuidId>5df377dd-2b67-4a7f-9824-39b65ce30c21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='treeview-1014-record-4']/tbody/tr/td/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2737b834-bc2d-4fcb-801b-514ecf7292ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x-tree-node-text </value>
+      <webElementGuid>33f0c303-e28c-4a1c-9032-37657bdbb81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction</value>
+      <webElementGuid>431fc99d-6fe5-4935-872d-41d2c0f2bf98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;treeview-1014-record-4&quot;)/tbody[1]/tr[@class=&quot;x-grid-row&quot;]/td[@class=&quot;x-grid-cell x-grid-td x-grid-cell-treecolumn-1013 x-grid-cell-treecolumn x-grid-cell-first x-grid-cell-last x-unselectable x-grid-item-focused&quot;]/div[@class=&quot;x-grid-cell-inner x-grid-cell-inner-treecolumn&quot;]/span[@class=&quot;x-tree-node-text&quot;]</value>
+      <webElementGuid>757b2d0c-df8e-45f7-9ac5-a1f3c03ed4b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='treeview-1014-record-4']/tbody/tr/td/div/span</value>
+      <webElementGuid>34d72860-bd0c-4e68-83f7-ca598b2c17f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[3]/tbody/tr/td/div/span</value>
+      <webElementGuid>aeae7a0f-e231-440e-8f01-c18cb96bb08c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Transaction' or . = 'Transaction')]</value>
+      <webElementGuid>56a28dda-cce4-41ee-83be-6bcedf868cb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

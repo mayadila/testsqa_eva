@@ -4,4 +4,39 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'EngineerTest1'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'W/OUHaE1QwcnZTXGuncx4g=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'EngineerTest1'</initValue>
+      <name>username1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'W/OUHaE1QwczVa8uFNEl5A=='</initValue>
+      <name>password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'EngineerTest'</initValue>
+      <name>username2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'W/OUHaE1QwcnZTXGuncx4g=='</initValue>
+      <name>password2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

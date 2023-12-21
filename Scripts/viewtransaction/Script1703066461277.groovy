@@ -23,27 +23,19 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/loginfailed/input_txtUsername'), GlobalVariable.username1)
+WebUI.setText(findTestObject('Object Repository/viewtransaction/input_txtUsername'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginfailed/input_txtPassword'), GlobalVariable.password1)
+WebUI.setEncryptedText(findTestObject('Object Repository/viewtransaction/input_txtPassword'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/loginfailed/span_Login'))
+WebUI.click(findTestObject('Object Repository/viewtransaction/span_Login'))
 
-WebUI.waitForAlert(2)
+WebUI.doubleClick(findTestObject('Object Repository/viewtransaction/span_Engineer Test'))
 
-WebUI.delay(4)
+WebUI.doubleClick(findTestObject('Object Repository/viewtransaction/span_Transaction'))
 
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+WebUI.doubleClick(findTestObject('Object Repository/viewtransaction/span_View'))
 
-WebUI.setText(findTestObject('Object Repository/loginfailed/input_txtUsername'), GlobalVariable.username2)
+WebUI.delay(8)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginfailed/input_txtPassword'), GlobalVariable.password2)
-
-WebUI.click(findTestObject('Object Repository/loginfailed/span_Login'))
-
-WebUI.waitForAlert(2)
-
-WebUI.delay(4)
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 
