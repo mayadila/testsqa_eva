@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.setText(findTestObject('Object Repository/downloadtransaction/input_txtUsername'), GlobalVariable.username)
@@ -40,6 +42,18 @@ WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export Cu
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export All Page'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd'))
+
+WebUI.click(findTestObject('downloadtransaction/li_CSV'))
+
+WebUI.click(findTestObject('downloadtransaction/span_Export Current Page'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('downloadtransaction/span_Export All Page'))
 
 WebUI.delay(5)
 
