@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactionadvance,Chrome 120.0.0.0,,,22-12-2023 17:06:34,22-12-2023 17:07:25,50.478s,PASSED
+,,,,,,,
+Test Cases/advancefiltersuccess,Chrome 120.0.0.0,,,22-12-2023 17:06:34,22-12-2023 17:07:05,30.211s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 17:06:35,22-12-2023 17:06:36,1.720s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 17:06:36,22-12-2023 17:06:37,0.166s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 17:06:37,22-12-2023 17:06:37,0.819s,PASSED
+"setText(findTestObject(""Object Repository/advancedfiltersuccess/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 17:06:37,22-12-2023 17:06:39,1.622s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/advancedfiltersuccess/input_txtPassword""), password)",Chrome 120.0.0.0,,,22-12-2023 17:06:39,22-12-2023 17:06:39,0.438s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/a_Login""))",Chrome 120.0.0.0,,,22-12-2023 17:06:39,22-12-2023 17:06:40,0.345s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfiltersuccess/span_Engineer Test""))",Chrome 120.0.0.0,,,22-12-2023 17:06:40,22-12-2023 17:06:42,2.228s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfiltersuccess/span_Transaction""))",Chrome 120.0.0.0,,,22-12-2023 17:06:42,22-12-2023 17:06:43,0.669s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfiltersuccess/span_View""))",Chrome 120.0.0.0,,,22-12-2023 17:06:43,22-12-2023 17:06:43,0.651s,PASSED
+delay(2),Chrome 120.0.0.0,,,22-12-2023 17:06:43,22-12-2023 17:06:45,2.045s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Advanced Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:06:45,22-12-2023 17:06:46,0.496s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/divContentPlaceHolder1_AdvancedFilter1_cboF_b58eab""))",Chrome 120.0.0.0,,,22-12-2023 17:06:46,22-12-2023 17:06:47,0.768s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/li_Employee Name""))",Chrome 120.0.0.0,,,22-12-2023 17:06:47,22-12-2023 17:06:47,0.473s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/divContentPlaceHolder1_AdvancedFilter1_cboF_ea7e77""))",Chrome 120.0.0.0,,,22-12-2023 17:06:47,22-12-2023 17:06:47,0.428s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/li_Equal""))",Chrome 120.0.0.0,,,22-12-2023 17:06:47,22-12-2023 17:06:48,0.450s,PASSED
+"setText(findTestObject(""Object Repository/advancedfiltersuccess/input_ContentPlaceHolder1_AdvancedFilter1_t_8fd482""), ""EngineerTest1"")",Chrome 120.0.0.0,,,22-12-2023 17:06:48,22-12-2023 17:06:48,0.533s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Add""))",Chrome 120.0.0.0,,,22-12-2023 17:06:48,22-12-2023 17:06:49,0.462s,PASSED
+delay(2),Chrome 120.0.0.0,,,22-12-2023 17:06:49,22-12-2023 17:06:51,2.004s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:06:51,22-12-2023 17:06:51,0.449s,PASSED
+delay(4),Chrome 120.0.0.0,,,22-12-2023 17:06:51,22-12-2023 17:06:55,4.022s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Advanced Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:06:55,22-12-2023 17:06:56,0.397s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Delete""))",Chrome 120.0.0.0,,,22-12-2023 17:06:56,22-12-2023 17:06:56,0.455s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/divContentPlaceHolder1_AdvancedFilter1_cboF_b58eab""))",Chrome 120.0.0.0,,,22-12-2023 17:06:56,22-12-2023 17:06:57,0.444s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/li_District""))",Chrome 120.0.0.0,,,22-12-2023 17:06:57,22-12-2023 17:06:57,0.453s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/divContentPlaceHolder1_AdvancedFilter1_cboF_ea7e77""))",Chrome 120.0.0.0,,,22-12-2023 17:06:57,22-12-2023 17:06:58,0.430s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/li_Equal_1""))",Chrome 120.0.0.0,,,22-12-2023 17:06:58,22-12-2023 17:06:58,0.465s,PASSED
+"setText(findTestObject(""Object Repository/advancedfiltersuccess/input_ContentPlaceHolder1_AdvancedFilter1_t_8fd482""), ""D005 - Jakarta Barat"")",Chrome 120.0.0.0,,,22-12-2023 17:06:58,22-12-2023 17:06:59,0.442s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Add""))",Chrome 120.0.0.0,,,22-12-2023 17:06:59,22-12-2023 17:06:59,0.457s,PASSED
+"click(findTestObject(""Object Repository/advancedfiltersuccess/span_Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:06:59,22-12-2023 17:06:59,0.475s,PASSED
+delay(5),Chrome 120.0.0.0,,,22-12-2023 17:06:59,22-12-2023 17:07:04,5.006s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-12-2023 17:07:04,22-12-2023 17:07:05,0.159s,PASSED
+,,,,,,,
+Test Cases/advancefilterfailed,Chrome 120.0.0.0,,,22-12-2023 17:07:05,22-12-2023 17:07:25,20.126s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 17:07:05,22-12-2023 17:07:06,0.891s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 17:07:06,22-12-2023 17:07:06,0.131s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 17:07:06,22-12-2023 17:07:06,0.743s,PASSED
+"setText(findTestObject(""Object Repository/advancedfilterfailed/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 17:07:06,22-12-2023 17:07:07,0.896s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/advancedfilterfailed/input_txtPassword""), password)",Chrome 120.0.0.0,,,22-12-2023 17:07:07,22-12-2023 17:07:08,0.394s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 17:07:08,22-12-2023 17:07:08,0.342s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfilterfailed/span_Engineer Test""))",Chrome 120.0.0.0,,,22-12-2023 17:07:08,22-12-2023 17:07:10,2.169s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfilterfailed/span_Transaction""))",Chrome 120.0.0.0,,,22-12-2023 17:07:10,22-12-2023 17:07:11,0.672s,PASSED
+"doubleClick(findTestObject(""Object Repository/advancedfilterfailed/span_View""))",Chrome 120.0.0.0,,,22-12-2023 17:07:11,22-12-2023 17:07:12,0.653s,PASSED
+delay(2),Chrome 120.0.0.0,,,22-12-2023 17:07:12,22-12-2023 17:07:14,2.011s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/span_Advanced Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:07:14,22-12-2023 17:07:14,0.498s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/divContentPlaceHolder1_AdvancedFilter1_cboF_b58eab""))",Chrome 120.0.0.0,,,22-12-2023 17:07:14,22-12-2023 17:07:15,0.752s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/li_Employee ID""))",Chrome 120.0.0.0,,,22-12-2023 17:07:15,22-12-2023 17:07:15,0.401s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/divContentPlaceHolder1_AdvancedFilter1_cboF_ea7e77""))",Chrome 120.0.0.0,,,22-12-2023 17:07:15,22-12-2023 17:07:16,0.446s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/li_Equal""))",Chrome 120.0.0.0,,,22-12-2023 17:07:16,22-12-2023 17:07:16,0.420s,PASSED
+"setText(findTestObject(""Object Repository/advancedfilterfailed/input_ContentPlaceHolder1_AdvancedFilter1_t_8fd482""), ""abcde"")",Chrome 120.0.0.0,,,22-12-2023 17:07:16,22-12-2023 17:07:17,0.496s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/span_Add""))",Chrome 120.0.0.0,,,22-12-2023 17:07:17,22-12-2023 17:07:17,0.480s,PASSED
+delay(2),Chrome 120.0.0.0,,,22-12-2023 17:07:17,22-12-2023 17:07:19,2.007s,PASSED
+"click(findTestObject(""Object Repository/advancedfilterfailed/span_Filter""))",Chrome 120.0.0.0,,,22-12-2023 17:07:19,22-12-2023 17:07:20,0.487s,PASSED
+delay(5),Chrome 120.0.0.0,,,22-12-2023 17:07:20,22-12-2023 17:07:25,5.014s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-12-2023 17:07:25,22-12-2023 17:07:25,0.143s,PASSED
