@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd",
+      "brokenLocator": "//*[@id \u003d \u0027ContentPlaceHolder1_cboExportExcel-trigger-picker\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div/div/div/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231222_165440/transactiondownload/20231222_165441/Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd_position.png"
+    }
+  ]
+}

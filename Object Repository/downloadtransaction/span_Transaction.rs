@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Transaction</name>
    <tag></tag>
-   <elementGuidId>36dbccbe-e30d-4e96-8bda-7a58ab53427e</elementGuidId>
+   <elementGuidId>14dd4c67-c120-49d6-8a3d-77e9cc4870db</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='treeview-1014-record-4']/tbody/tr/td/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5072e93f-0193-4986-b9e3-a3ca7392981b</webElementGuid>
+      <webElementGuid>e45c2e5e-7b3f-41bc-9493-226bf97c9e8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>x-tree-node-text </value>
-      <webElementGuid>19a038fe-3378-4338-887e-7b5c58a0526e</webElementGuid>
+      <webElementGuid>74310c90-6e1f-4579-a25b-15cf170f2097</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction</value>
-      <webElementGuid>1e13ac18-2976-4d63-b945-5228701f4a8c</webElementGuid>
+      <webElementGuid>36c5b826-8e17-451f-96f5-762a4f5590df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;treeview-1014-record-4&quot;)/tbody[1]/tr[@class=&quot;x-grid-row&quot;]/td[@class=&quot;x-grid-cell x-grid-td x-grid-cell-treecolumn-1013 x-grid-cell-treecolumn x-grid-cell-first x-grid-cell-last x-unselectable x-grid-item-focused&quot;]/div[@class=&quot;x-grid-cell-inner x-grid-cell-inner-treecolumn&quot;]/span[@class=&quot;x-tree-node-text&quot;]</value>
-      <webElementGuid>d37390ad-dce3-434b-91d3-b35a40e75039</webElementGuid>
+      <webElementGuid>c07cb896-7f59-4c74-8725-37ea8e87dae0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='treeview-1014-record-4']/tbody/tr/td/div/span</value>
-      <webElementGuid>028ccedc-46f2-4514-9fb8-9a0c5499f165</webElementGuid>
+      <webElementGuid>7e40cdd1-7682-4777-b7f9-f2ab2a83d9a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td/div/span</value>
-      <webElementGuid>55b077c2-f06e-4b8c-8dc6-f92ba74213cf</webElementGuid>
+      <webElementGuid>e77fe50e-b70d-4ecf-aecf-bc9bde08ebe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Transaction' or . = 'Transaction')]</value>
-      <webElementGuid>06abe680-4c31-43ba-9e8c-0786c6925f66</webElementGuid>
+      <webElementGuid>a54259ed-1a25-4053-b869-a4529f87140d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

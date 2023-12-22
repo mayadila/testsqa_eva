@@ -3,7 +3,7 @@
    <description></description>
    <name>divContentPlaceHolder1_cboExportExcel-trigg_294ccd</name>
    <tag></tag>
-   <elementGuidId>fcfb4172-6415-4feb-ace4-34962ce20202</elementGuidId>
+   <elementGuidId>7fd182d2-88a5-4543-a03d-f85d93902070</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,16 +13,20 @@
          <key>CSS</key>
          <value>#ContentPlaceHolder1_cboExportExcel-trigger-picker</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'ContentPlaceHolder1_cboExportExcel-trigger-picker' and @ref_element = 'Object Repository/downloadtransaction/iframe_nodeundefined_IFrame']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8e5f6542-918c-4f8b-889e-5cccd974734f</webElementGuid>
+      <webElementGuid>bbefd288-553c-4d52-946d-7a31f2ed30c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ContentPlaceHolder1_cboExportExcel-trigger-picker</value>
-      <webElementGuid>ba69f14e-eb79-49bc-ab83-896fdfd5cb0e</webElementGuid>
+      <webElementGuid>55aaa320-09ed-48f6-8d58-ab21231a101e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  x-form-trigger-over x-form-trigger-focus</value>
-      <webElementGuid>fe09964d-9ee5-47d8-b817-15b74f03e004</webElementGuid>
+      <webElementGuid>51e1b281-ca94-4ead-865a-51cd05dfd69c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>presentation</value>
-      <webElementGuid>39d7fd4c-5e8b-4614-a788-6c882b1ef35c</webElementGuid>
+      <webElementGuid>3ebcc8ff-f5cf-4149-8462-5c1aadfe25e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ContentPlaceHolder1_cboExportExcel-trigger-picker&quot;)</value>
-      <webElementGuid>aea18553-fa8c-4e81-8b25-77da4977adc0</webElementGuid>
+      <webElementGuid>b1875244-4199-4264-ba24-b43971db0d7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/downloadtransaction/iframe_nodeundefined_IFrame</value>
+      <webElementGuid>9878c4da-fa40-45b7-9156-d686e9d93486</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='ContentPlaceHolder1_cboExportExcel-trigger-picker']</value>
-      <webElementGuid>75057847-03c1-4e0f-b84f-f1e58282e16f</webElementGuid>
+      <webElementGuid>5ed2ca81-76c4-4f55-bc25-7d4d54b3c83c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ContentPlaceHolder1_cboExportExcel-triggerWrap']/div[2]</value>
-      <webElementGuid>37af4933-2f0b-448d-8cd6-e7e88095b085</webElementGuid>
+      <webElementGuid>1b6e8c62-14f0-4f1f-8a5b-0168c08747f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div[2]</value>
-      <webElementGuid>d40b7db3-7646-43a4-9bff-8d7859cc6adc</webElementGuid>
+      <webElementGuid>09d66bf5-467c-4385-8c3e-7564bd98fe1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'ContentPlaceHolder1_cboExportExcel-trigger-picker']</value>
-      <webElementGuid>7862b491-0f95-461e-8f0e-96efe9014956</webElementGuid>
+      <webElementGuid>2f45ae58-069c-4018-b113-56a1f86e8ffe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

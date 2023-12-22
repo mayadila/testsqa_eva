@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Engineer Test</name>
    <tag></tag>
-   <elementGuidId>f43d7936-2e73-450f-bfc0-8ac3683289c5</elementGuidId>
+   <elementGuidId>0b4a9765-0b5d-4035-bf2c-5f15e0686477</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='treeview-1014-record-3']/tbody/tr/td/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>034e4a7a-8c9b-442a-9058-d1c35aadd1f0</webElementGuid>
+      <webElementGuid>8d43d0b3-937b-498e-87ce-8deab8261cf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>x-tree-node-text </value>
-      <webElementGuid>15c92e9a-8e82-4060-9155-b10649767e3d</webElementGuid>
+      <webElementGuid>ccaa2c24-1a24-4076-a18c-8a814c9675ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Engineer Test</value>
-      <webElementGuid>91a1ff64-a637-48eb-9aca-49160ca64995</webElementGuid>
+      <webElementGuid>b3c8f60a-2f34-4ac3-b000-203fd7d9726c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;treeview-1014-record-3&quot;)/tbody[1]/tr[@class=&quot;x-grid-row&quot;]/td[@class=&quot;x-grid-cell x-grid-td x-grid-cell-treecolumn-1013 x-grid-cell-treecolumn x-grid-cell-first x-grid-cell-last x-unselectable x-grid-item-focused&quot;]/div[@class=&quot;x-grid-cell-inner x-grid-cell-inner-treecolumn&quot;]/span[@class=&quot;x-tree-node-text&quot;]</value>
-      <webElementGuid>264757f3-9065-4333-bb05-52a68479448d</webElementGuid>
+      <webElementGuid>c820ee73-5bb6-4ec0-8c3d-7f9c18304d2f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='treeview-1014-record-3']/tbody/tr/td/div/span</value>
-      <webElementGuid>8de78197-2625-4246-ab44-36381c70a885</webElementGuid>
+      <webElementGuid>9ca6b80b-db2f-49c7-b885-ff0c9c15c8af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/div/span</value>
-      <webElementGuid>40e75c18-7c0e-49e8-99e1-6b03bf3ade71</webElementGuid>
+      <webElementGuid>c3712c58-c4c8-4921-8057-44159762e4f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Engineer Test' or . = 'Engineer Test')]</value>
-      <webElementGuid>e77a441a-f639-4957-93df-064a649bf0ec</webElementGuid>
+      <webElementGuid>ed9510bb-b841-47f3-b6d5-6b940fc13f26</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl('https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx')
 
-WebUI.setText(findTestObject('Object Repository/downloadtransaction/input_txtUsername'), GlobalVariable.username)
+WebUI.setText(findTestObject('Object Repository/downloadtransaction/input_txtUsername'), 'EngineerTest1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/downloadtransaction/input_txtPassword'), GlobalVariable.password)
+WebUI.setEncryptedText(findTestObject('Object Repository/downloadtransaction/input_txtPassword'), 'W/OUHaE1QwcnZTXGuncx4g==')
 
 WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Login'))
 
@@ -35,7 +35,7 @@ WebUI.doubleClick(findTestObject('Object Repository/downloadtransaction/span_Tra
 
 WebUI.doubleClick(findTestObject('Object Repository/downloadtransaction/span_View'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export Current Page'))
 
@@ -43,17 +43,19 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export All Page'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd'))
+WebUI.click(findTestObject('Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd'))
 
-WebUI.click(findTestObject('downloadtransaction/li_CSV'))
-
-WebUI.click(findTestObject('downloadtransaction/span_Export Current Page'))
+WebUI.click(findTestObject('Object Repository/downloadtransaction/li_CSV'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('downloadtransaction/span_Export All Page'))
+WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export Current Page'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/downloadtransaction/span_Export All Page'))
 
 WebUI.delay(5)
 

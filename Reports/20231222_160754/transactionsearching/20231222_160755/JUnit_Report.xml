@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transactionsearching" time="72.953" tests="3" failures="0" errors="0">
+   <testsuite name="transactionsearching" tests="3" failures="0" errors="0" time="72.953" skipped="0" timestamp="22-12-2023T16:08:02" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/transactionsearching">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160754\\transactionsearching\\20231222_160755"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160754\\transactionsearching\\20231222_160755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="1ed211acc64eefb5e0620ced1e07e6af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/viewtransaction" time="16.222" classname="Test Cases/viewtransaction" status="PASSED">
+         <system-out><![CDATA[22-12-2023T16:08:02 - [TEST_CASE][PASSED] - Test Cases/viewtransaction: Test Cases/viewtransaction
+
+22-12-2023T16:08:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:08:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:08:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:08:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:08:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:08:04 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:08:04 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:05 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/viewtransaction/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T16:08:06 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T16:08:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/viewtransaction/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T16:08:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T16:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/viewtransaction/span_Login")): Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T16:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T16:08:06 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Engineer Test")): Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:08 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Transaction")): Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T16:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T16:08:09 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_View")): Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T16:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T16:08:10 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+22-12-2023T16:08:18 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+22-12-2023T16:08:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T16:08:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchtransactionsuccess" time="28.008" classname="Test Cases/searchtransactionsuccess" status="PASSED">
+         <system-out><![CDATA[22-12-2023T16:08:18 - [TEST_CASE][PASSED] - Test Cases/searchtransactionsuccess: Test Cases/searchtransactionsuccess
+
+22-12-2023T16:08:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:08:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:08:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:08:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:08:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:08:19 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:08:19 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:20 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionsuccess/input_txtUsername'
+
+22-12-2023T16:08:21 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionsuccess/input_txtUsername'
+
+22-12-2023T16:08:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/searchingtransactionsuccess/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/searchingtransactionsuccess/input_txtPassword'
+
+22-12-2023T16:08:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/searchingtransactionsuccess/input_txtPassword'
+
+22-12-2023T16:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/searchingtransactionsuccess/span_Login")): Object: 'Object Repository/searchingtransactionsuccess/span_Login' is clicked on
+
+22-12-2023T16:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Login' is clicked on
+
+22-12-2023T16:08:21 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_Engineer Test")): Object: 'Object Repository/searchingtransactionsuccess/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_Transaction")): Object: 'Object Repository/searchingtransactionsuccess/span_Transaction' is double clicked on
+
+22-12-2023T16:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Transaction' is double clicked on
+
+22-12-2023T16:08:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_View")): Object: 'Object Repository/searchingtransactionsuccess/span_View' is double clicked on
+
+22-12-2023T16:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_View' is double clicked on
+
+22-12-2023T16:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1018"), "Test"): Text 'Test' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:08:26 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:08:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1018"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:08:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:08:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:08:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:08:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1021"), "Web"): Text 'Web' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:08:29 - [MESSAGE][PASSED] - Text 'Web' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:08:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1021"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:08:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:08:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:08:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1026"), "No"): Text 'No' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:08:32 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:08:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1026"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:08:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:08:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:08:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:08:36 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1018")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1018' is cleared
+
+22-12-2023T16:08:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1018' is cleared
+
+22-12-2023T16:08:36 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1021")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1021' is cleared
+
+22-12-2023T16:08:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1021' is cleared
+
+22-12-2023T16:08:37 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1026")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1026' is cleared
+
+22-12-2023T16:08:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1026' is cleared
+
+22-12-2023T16:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1032"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:08:38 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:08:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1032"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:08:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:08:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:08:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1029"), "Pusat"): Text 'Pusat' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:08:40 - [MESSAGE][PASSED] - Text 'Pusat' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:08:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1029"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:08:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:08:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-12-2023T16:08:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-12-2023T16:08:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T16:08:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchingtransactionfailed" time="28.565" classname="Test Cases/searchingtransactionfailed" status="PASSED">
+         <system-out><![CDATA[22-12-2023T16:08:46 - [TEST_CASE][PASSED] - Test Cases/searchingtransactionfailed: Test Cases/searchingtransactionfailed
+
+22-12-2023T16:08:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:08:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:08:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:08:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:08:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:08:47 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:08:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:48 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionfailed/input_txtUsername'
+
+22-12-2023T16:08:49 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionfailed/input_txtUsername'
+
+22-12-2023T16:08:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/searchingtransactionfailed/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/searchingtransactionfailed/input_txtPassword'
+
+22-12-2023T16:08:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/searchingtransactionfailed/input_txtPassword'
+
+22-12-2023T16:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/searchingtransactionfailed/span_Login")): Object: 'Object Repository/searchingtransactionfailed/span_Login' is clicked on
+
+22-12-2023T16:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Login' is clicked on
+
+22-12-2023T16:08:50 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_Engineer Test")): Object: 'Object Repository/searchingtransactionfailed/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Engineer Test' is double clicked on
+
+22-12-2023T16:08:52 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_Transaction")): Object: 'Object Repository/searchingtransactionfailed/span_Transaction' is double clicked on
+
+22-12-2023T16:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Transaction' is double clicked on
+
+22-12-2023T16:08:53 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_View")): Object: 'Object Repository/searchingtransactionfailed/span_View' is double clicked on
+
+22-12-2023T16:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_View' is double clicked on
+
+22-12-2023T16:08:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:08:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38"), "1994-12-12"): Text '1994-12-12' is set on object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'
+
+22-12-2023T16:08:56 - [MESSAGE][PASSED] - Text '1994-12-12' is set on object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'
+
+22-12-2023T16:08:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:09:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_textfield-1021"), "maya"): Text 'maya' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1021'
+
+22-12-2023T16:09:00 - [MESSAGE][PASSED] - Text 'maya' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1021'
+
+22-12-2023T16:09:00 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:09:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:09:04 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionfailed/input_ContentPlaceHolder1_ctl38")): Text of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38' is cleared
+
+22-12-2023T16:09:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38' is cleared
+
+22-12-2023T16:09:05 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionfailed/input_textfield-1021")): Text of object 'Object Repository/searchingtransactionfailed/input_textfield-1021' is cleared
+
+22-12-2023T16:09:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionfailed/input_textfield-1021' is cleared
+
+22-12-2023T16:09:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:09:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_textfield-1029"), "Yogyakarta"): Text 'Yogyakarta' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1029'
+
+22-12-2023T16:09:09 - [MESSAGE][PASSED] - Text 'Yogyakarta' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1029'
+
+22-12-2023T16:09:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-12-2023T16:09:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-12-2023T16:09:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T16:09:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-12-2023T16:08:02 - [TEST_SUITE][PASSED] - transactionsearching: Test Cases/searchingtransactionfailed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

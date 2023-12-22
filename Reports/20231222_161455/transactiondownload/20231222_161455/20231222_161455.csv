@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactiondownload,Chrome 120.0.0.0,,,22-12-2023 16:15:01,22-12-2023 16:19:32,4m - 30.894s,FAILED
+,,,,,,,
+Test Cases/viewtransaction,Chrome 120.0.0.0,,,22-12-2023 16:15:01,22-12-2023 16:15:17,16.008s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 16:15:01,22-12-2023 16:15:03,1.627s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 16:15:03,22-12-2023 16:15:03,0.157s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 16:15:03,22-12-2023 16:15:04,0.952s,PASSED
+"setText(findTestObject(""Object Repository/viewtransaction/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 16:15:04,22-12-2023 16:15:05,0.860s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/viewtransaction/input_txtPassword""), password)",Chrome 120.0.0.0,,,22-12-2023 16:15:05,22-12-2023 16:15:05,0.370s,PASSED
+"click(findTestObject(""Object Repository/viewtransaction/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 16:15:05,22-12-2023 16:15:06,0.326s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_Engineer Test""))",Chrome 120.0.0.0,,,22-12-2023 16:15:06,22-12-2023 16:15:08,2.094s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_Transaction""))",Chrome 120.0.0.0,,,22-12-2023 16:15:08,22-12-2023 16:15:08,0.551s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_View""))",Chrome 120.0.0.0,,,22-12-2023 16:15:08,22-12-2023 16:15:09,0.658s,PASSED
+delay(8),Chrome 120.0.0.0,,,22-12-2023 16:15:09,22-12-2023 16:15:17,8.041s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-12-2023 16:15:17,22-12-2023 16:15:17,0.153s,PASSED
+,,,,,,,
+Test Cases/downloadtransaction,Chrome 120.0.0.0,,,22-12-2023 16:19:27,22-12-2023 16:19:32,5.043s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 16:19:27,22-12-2023 16:19:28,1.398s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 16:19:28,22-12-2023 16:19:29,0.254s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 16:19:29,22-12-2023 16:19:29,0.405s,PASSED
+"setText(findTestObject(""Object Repository/downloadtransaction/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 16:19:29,22-12-2023 16:19:31,1.652s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/downloadtransaction/input_txtPassword""), password)",Chrome 120.0.0.0,,,22-12-2023 16:19:31,22-12-2023 16:19:31,0.313s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 16:19:31,22-12-2023 16:19:31,0.306s,PASSED
+"doubleClick(findTestObject(""Object Repository/downloadtransaction/span_Engineer Test""))",Chrome 120.0.0.0,,,22-12-2023 16:19:31,22-12-2023 16:19:32,0.688s,FAILED

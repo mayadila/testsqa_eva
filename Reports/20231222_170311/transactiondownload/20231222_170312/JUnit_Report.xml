@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transactiondownload" time="42.981" tests="2" failures="0" errors="0">
+   <testsuite name="transactiondownload" tests="2" failures="0" errors="0" time="42.981" skipped="0" timestamp="22-12-2023T17:03:18" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/transactiondownload">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_170311\\transactiondownload\\20231222_170312"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_170311\\transactiondownload\\20231222_170312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="ef8985bd842d17802569c8d7f75a666b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/viewtransaction" time="16.559" classname="Test Cases/viewtransaction" status="PASSED">
+         <system-out><![CDATA[22-12-2023T17:03:19 - [TEST_CASE][PASSED] - Test Cases/viewtransaction: Test Cases/viewtransaction
+
+22-12-2023T17:03:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T17:03:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T17:03:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T17:03:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T17:03:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T17:03:21 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T17:03:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T17:03:22 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T17:03:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/viewtransaction/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T17:03:23 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T17:03:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/viewtransaction/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T17:03:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T17:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/viewtransaction/span_Login")): Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T17:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T17:03:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Engineer Test")): Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T17:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T17:03:26 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Transaction")): Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T17:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T17:03:26 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_View")): Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T17:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T17:03:27 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+22-12-2023T17:03:35 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+22-12-2023T17:03:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T17:03:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/downloadtransaction" time="26.251" classname="Test Cases/downloadtransaction" status="PASSED">
+         <system-out><![CDATA[22-12-2023T17:03:35 - [TEST_CASE][PASSED] - Test Cases/downloadtransaction: Test Cases/downloadtransaction
+
+22-12-2023T17:03:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T17:03:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T17:03:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T17:03:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T17:03:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T17:03:36 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T17:03:36 - [TEST_STEP][PASSED] - navigateToUrl("https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx"): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T17:03:37 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T17:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/downloadtransaction/input_txtUsername"), "EngineerTest1"): Text 'EngineerTest1' is set on object 'Object Repository/downloadtransaction/input_txtUsername'
+
+22-12-2023T17:03:38 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/downloadtransaction/input_txtUsername'
+
+22-12-2023T17:03:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/downloadtransaction/input_txtPassword"), "W/OUHaE1QwcnZTXGuncx4g=="): Text ****** has been set on object 'Object Repository/downloadtransaction/input_txtPassword'
+
+22-12-2023T17:03:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/downloadtransaction/input_txtPassword'
+
+22-12-2023T17:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/span_Login")): Object: 'Object Repository/downloadtransaction/span_Login' is clicked on
+
+22-12-2023T17:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Login' is clicked on
+
+22-12-2023T17:03:39 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/downloadtransaction/span_Engineer Test")): Object: 'Object Repository/downloadtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T17:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T17:03:41 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/downloadtransaction/span_Transaction")): Object: 'Object Repository/downloadtransaction/span_Transaction' is double clicked on
+
+22-12-2023T17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Transaction' is double clicked on
+
+22-12-2023T17:03:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/downloadtransaction/span_View")): Object: 'Object Repository/downloadtransaction/span_View' is double clicked on
+
+22-12-2023T17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_View' is double clicked on
+
+22-12-2023T17:03:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-12-2023T17:03:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-12-2023T17:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/span_Export Current Page")): Object: 'Object Repository/downloadtransaction/span_Export Current Page' is clicked on
+
+22-12-2023T17:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Export Current Page' is clicked on
+
+22-12-2023T17:03:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T17:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T17:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/span_Export All Page")): Object: 'Object Repository/downloadtransaction/span_Export All Page' is clicked on
+
+22-12-2023T17:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Export All Page' is clicked on
+
+22-12-2023T17:03:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T17:03:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T17:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd")): Object: 'Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd' is clicked on
+
+22-12-2023T17:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd' is clicked on
+
+22-12-2023T17:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/li_CSV")): Object: 'Object Repository/downloadtransaction/li_CSV' is clicked on
+
+22-12-2023T17:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/li_CSV' is clicked on
+
+22-12-2023T17:03:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T17:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T17:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/span_Export Current Page")): Object: 'Object Repository/downloadtransaction/span_Export Current Page' is clicked on
+
+22-12-2023T17:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Export Current Page' is clicked on
+
+22-12-2023T17:03:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T17:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T17:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/downloadtransaction/span_Export All Page")): Object: 'Object Repository/downloadtransaction/span_Export All Page' is clicked on
+
+22-12-2023T17:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/downloadtransaction/span_Export All Page' is clicked on
+
+22-12-2023T17:03:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-12-2023T17:04:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-12-2023T17:04:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T17:04:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-12-2023T17:03:18 - [TEST_SUITE][PASSED] - transactiondownload: Test Cases/downloadtransaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -51,14 +51,6 @@ WebUI.clearText(findTestObject('searchingtransactionfailed/input_textfield-1021'
 
 WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'), '12-12-2023')
-
-WebUI.delay(4)
-
-WebUI.clearText(findTestObject('searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'))
-
-WebUI.delay(4)
-
 WebUI.setText(findTestObject('Object Repository/searchingtransactionfailed/input_textfield-1029'), 'Yogyakarta')
 
 WebUI.delay(5)

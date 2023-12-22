@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/advancedfiltersuccess/li_Employee Name",
+      "brokenLocator": "//li[@id\u003d\u0027ext-element-77\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027ContentPlaceHolder1_AdvancedFilter1_cboField-picker-listEl\u0027]/li[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/advancedfilterfailed/span_View",
+      "brokenLocator": "//td[@id\u003d\u0027ext-element-18\u0027]/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[4]/tbody/tr/td/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/advancedfilterfailed/span_View_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd",
+      "brokenLocator": "//div[@id\u003d\u0027ContentPlaceHolder1_cboExportExcel-trigger-picker\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd_position.png"
+    }
+  ]
 }

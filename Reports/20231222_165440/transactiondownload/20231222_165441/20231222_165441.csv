@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactiondownload,Chrome 120.0.0.0,,,22-12-2023 16:54:48,22-12-2023 16:56:39,1m - 51.121s,FAILED
+,,,,,,,
+Test Cases/downloadtransaction,Chrome 120.0.0.0,,,22-12-2023 16:56:36,22-12-2023 16:56:39,2.557s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 16:56:36,22-12-2023 16:56:37,1.070s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 16:56:37,22-12-2023 16:56:38,0.127s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 16:56:38,22-12-2023 16:56:38,0.764s,PASSED
+"setText(findTestObject(""Object Repository/downloadtransaction/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 16:56:38,22-12-2023 16:56:39,0.579s,FAILED

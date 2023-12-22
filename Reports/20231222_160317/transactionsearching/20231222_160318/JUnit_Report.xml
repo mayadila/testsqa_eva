@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transactionsearching" time="159.976" tests="3" failures="1" errors="0">
+   <testsuite name="transactionsearching" tests="3" failures="1" errors="0" time="159.976" skipped="0" timestamp="22-12-2023T16:03:25" hostname="202102359 - KPO-Blicicil.pdc.megafinance.co.id" id="Test Suites/transactionsearching">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\1703235873664.png, C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\1703235896524.png, C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\1703235941800.png, C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\1703235964960.png"/>
+         <property name="hostName" value="202102359 - KPO-Blicicil.pdc.megafinance.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.16.53"/>
+         <property name="sessionId" value="209c85bbdc89463185c2a83bdd5a90c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/viewtransaction" time="17.38" classname="Test Cases/viewtransaction" status="PASSED">
+         <system-out><![CDATA[22-12-2023T16:03:25 - [TEST_CASE][PASSED] - Test Cases/viewtransaction: Test Cases/viewtransaction
+
+22-12-2023T16:03:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:03:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:03:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:03:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:03:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:03:27 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:03:27 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:03:28 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:03:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/viewtransaction/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T16:03:30 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/viewtransaction/input_txtUsername'
+
+22-12-2023T16:03:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/viewtransaction/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T16:03:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/viewtransaction/input_txtPassword'
+
+22-12-2023T16:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/viewtransaction/span_Login")): Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T16:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Login' is clicked on
+
+22-12-2023T16:03:30 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Engineer Test")): Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T16:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Engineer Test' is double clicked on
+
+22-12-2023T16:03:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_Transaction")): Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T16:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_Transaction' is double clicked on
+
+22-12-2023T16:03:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/viewtransaction/span_View")): Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T16:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/viewtransaction/span_View' is double clicked on
+
+22-12-2023T16:03:34 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+22-12-2023T16:03:42 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+22-12-2023T16:03:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T16:03:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchtransactionsuccess" time="28.053" classname="Test Cases/searchtransactionsuccess" status="PASSED">
+         <system-out><![CDATA[22-12-2023T16:03:42 - [TEST_CASE][PASSED] - Test Cases/searchtransactionsuccess: Test Cases/searchtransactionsuccess
+
+22-12-2023T16:03:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:03:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:03:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:03:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:03:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:03:43 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:03:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:03:44 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionsuccess/input_txtUsername'
+
+22-12-2023T16:03:45 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionsuccess/input_txtUsername'
+
+22-12-2023T16:03:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/searchingtransactionsuccess/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/searchingtransactionsuccess/input_txtPassword'
+
+22-12-2023T16:03:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/searchingtransactionsuccess/input_txtPassword'
+
+22-12-2023T16:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/searchingtransactionsuccess/span_Login")): Object: 'Object Repository/searchingtransactionsuccess/span_Login' is clicked on
+
+22-12-2023T16:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Login' is clicked on
+
+22-12-2023T16:03:46 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_Engineer Test")): Object: 'Object Repository/searchingtransactionsuccess/span_Engineer Test' is double clicked on
+
+22-12-2023T16:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Engineer Test' is double clicked on
+
+22-12-2023T16:03:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_Transaction")): Object: 'Object Repository/searchingtransactionsuccess/span_Transaction' is double clicked on
+
+22-12-2023T16:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_Transaction' is double clicked on
+
+22-12-2023T16:03:49 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionsuccess/span_View")): Object: 'Object Repository/searchingtransactionsuccess/span_View' is double clicked on
+
+22-12-2023T16:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionsuccess/span_View' is double clicked on
+
+22-12-2023T16:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1018"), "Test"): Text 'Test' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:03:51 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:03:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1018"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:03:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1018'
+
+22-12-2023T16:03:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1021"), "Web"): Text 'Web' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:03:53 - [MESSAGE][PASSED] - Text 'Web' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:03:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1021"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:03:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1021'
+
+22-12-2023T16:03:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:03:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1026"), "No"): Text 'No' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:03:56 - [MESSAGE][PASSED] - Text 'No' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:03:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1026"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:03:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1026'
+
+22-12-2023T16:03:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:04:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:04:00 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1018")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1018' is cleared
+
+22-12-2023T16:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1018' is cleared
+
+22-12-2023T16:04:01 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1021")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1021' is cleared
+
+22-12-2023T16:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1021' is cleared
+
+22-12-2023T16:04:01 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionsuccess/input_textfield-1026")): Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1026' is cleared
+
+22-12-2023T16:04:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionsuccess/input_textfield-1026' is cleared
+
+22-12-2023T16:04:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1032"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:04:02 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:04:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1032"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:04:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1032'
+
+22-12-2023T16:04:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:04:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:04:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionsuccess/input_textfield-1029"), "Pusat"): Text 'Pusat' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:04:05 - [MESSAGE][PASSED] - Text 'Pusat' is set on object 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:04:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("searchingtransactionsuccess/input_textfield-1029"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:04:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/searchingtransactionsuccess/input_textfield-1029'
+
+22-12-2023T16:04:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-12-2023T16:04:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-12-2023T16:04:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-12-2023T16:04:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/searchingtransactionfailed" time="23.143" classname="Test Cases/searchingtransactionfailed" status="FAILED">
+         <failure type="FAILED" message="Test Cases/searchingtransactionfailed FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at searchingtransactionfailed.run(searchingtransactionfailed:54)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=120.0.6099.129)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 209c85bbdc89463185c2a83bdd5a90c6&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[22-12-2023T16:05:41 - [TEST_CASE][FAILED] - Test Cases/searchingtransactionfailed: Test Cases/searchingtransactionfailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 209c85bbdc89463185c2a83bdd5a90c6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+22-12-2023T16:05:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-12-2023T16:05:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-12-2023T16:05:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-12-2023T16:05:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-12-2023T16:05:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-12-2023T16:05:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-12-2023T16:05:43 - [MESSAGE][PASSED] - Current window maximized
+
+22-12-2023T16:05:43 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:05:44 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+22-12-2023T16:05:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionfailed/input_txtUsername'
+
+22-12-2023T16:05:44 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/searchingtransactionfailed/input_txtUsername'
+
+22-12-2023T16:05:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/searchingtransactionfailed/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/searchingtransactionfailed/input_txtPassword'
+
+22-12-2023T16:05:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/searchingtransactionfailed/input_txtPassword'
+
+22-12-2023T16:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/searchingtransactionfailed/span_Login")): Object: 'Object Repository/searchingtransactionfailed/span_Login' is clicked on
+
+22-12-2023T16:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Login' is clicked on
+
+22-12-2023T16:05:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_Engineer Test")): Object: 'Object Repository/searchingtransactionfailed/span_Engineer Test' is double clicked on
+
+22-12-2023T16:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Engineer Test' is double clicked on
+
+22-12-2023T16:05:47 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_Transaction")): Object: 'Object Repository/searchingtransactionfailed/span_Transaction' is double clicked on
+
+22-12-2023T16:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_Transaction' is double clicked on
+
+22-12-2023T16:05:48 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/searchingtransactionfailed/span_View")): Object: 'Object Repository/searchingtransactionfailed/span_View' is double clicked on
+
+22-12-2023T16:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/searchingtransactionfailed/span_View' is double clicked on
+
+22-12-2023T16:05:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-12-2023T16:05:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-12-2023T16:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38"), "1994-12-12"): Text '1994-12-12' is set on object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'
+
+22-12-2023T16:05:51 - [MESSAGE][PASSED] - Text '1994-12-12' is set on object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38'
+
+22-12-2023T16:05:51 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:05:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_textfield-1021"), "maya"): Text 'maya' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1021'
+
+22-12-2023T16:05:55 - [MESSAGE][PASSED] - Text 'maya' is set on object 'Object Repository/searchingtransactionfailed/input_textfield-1021'
+
+22-12-2023T16:05:55 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:05:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:05:59 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionfailed/input_ContentPlaceHolder1_ctl38")): Text of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38' is cleared
+
+22-12-2023T16:06:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38' is cleared
+
+22-12-2023T16:06:00 - [TEST_STEP][PASSED] - clearText(findTestObject("searchingtransactionfailed/input_textfield-1021")): Text of object 'Object Repository/searchingtransactionfailed/input_textfield-1021' is cleared
+
+22-12-2023T16:06:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/searchingtransactionfailed/input_textfield-1021' is cleared
+
+22-12-2023T16:06:00 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+22-12-2023T16:06:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+22-12-2023T16:06:04 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58"), "12-12-2023"): Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 209c85bbdc89463185c2a83bdd5a90c6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1703140084186.run(Script1703140084186.groovy:54)
+	... 18 more
+)
+
+22-12-2023T16:06:05 - [MESSAGE][FAILED] - Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 209c85bbdc89463185c2a83bdd5a90c6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1703140084186.run(Script1703140084186.groovy:54)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231222_160317\\transactionsearching\\20231222_160318\\1703235964960.png]]]]></system-out>
+         <system-err><![CDATA[22-12-2023T16:05:41 - [TEST_CASE][FAILED] - Test Cases/searchingtransactionfailed: Test Cases/searchingtransactionfailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 209c85bbdc89463185c2a83bdd5a90c6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-12-2023T16:03:25 - [TEST_SUITE][FAILED] - transactionsearching: Test Cases/searchingtransactionfailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07020c01004fcf25fd3f738e2d8d21b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[22-12-2023T16:03:25 - [TEST_SUITE][FAILED] - transactionsearching: Test Cases/searchingtransactionfailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '12-12-2023' of object 'Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at searchingtransactionfailed.run(searchingtransactionfailed:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1703235798973.run(TempTestSuite1703235798973.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KPO-BLICICIL', ip: '192.168.16.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\202102~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07020c01004fcf25fd3f738e2d8d21b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

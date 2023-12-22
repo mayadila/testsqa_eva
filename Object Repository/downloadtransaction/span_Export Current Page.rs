@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Export Current Page</name>
    <tag></tag>
-   <elementGuidId>8644434c-6211-475d-866e-2763b6e661d1</elementGuidId>
+   <elementGuidId>453307fc-d871-4337-90a4-ac36624642e8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#BtnExport-btnInnerEl</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//span[@id='BtnExport-btnInnerEl']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#BtnExport-btnInnerEl</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6857f279-b95f-448c-9c63-5c6d7e5cb50e</webElementGuid>
+      <webElementGuid>fb685f68-4eb2-4917-b564-84dbef420e8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>BtnExport-btnInnerEl</value>
-      <webElementGuid>4ee68053-6ce9-490f-a02d-979af6c7680e</webElementGuid>
+      <webElementGuid>acb603a3-624a-4388-a96c-00dbb5e9bb36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-ref</name>
       <type>Main</type>
       <value>btnInnerEl</value>
-      <webElementGuid>8697d2e3-ceb2-4147-9cc7-237120c6c363</webElementGuid>
+      <webElementGuid>47354987-6495-421b-afcd-de9b28ac7bd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>unselectable</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>fdb300ed-2c22-460d-ad17-9d294ea4f84e</webElementGuid>
+      <webElementGuid>25dd7550-9867-4380-85d6-ac17e0c8a16c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>x-btn-inner x-btn-inner-default-toolbar-small</value>
-      <webElementGuid>b8f90e24-5da0-44eb-86d1-8943e4feb49c</webElementGuid>
+      <webElementGuid>c047513b-debb-4f38-aed2-1f8a5cbc570b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Export Current Page</value>
-      <webElementGuid>3b9493ab-7ce1-42f3-8512-bb5ab28dab40</webElementGuid>
+      <webElementGuid>39ee46e2-697b-4b5b-ab9f-ac705b457c1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;BtnExport-btnInnerEl&quot;)</value>
-      <webElementGuid>403d7274-a7b3-4d85-8b33-9a95394b164d</webElementGuid>
+      <webElementGuid>feae1ece-5055-463a-ade2-1dc17ea76886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/downloadtransaction/iframe_nodeundefined_IFrame</value>
-      <webElementGuid>32afb904-1b53-42b2-acee-123136f31f1f</webElementGuid>
+      <webElementGuid>7292a1c6-7716-43cd-8628-039af55233c5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='BtnExport-btnInnerEl']</value>
-      <webElementGuid>294f0ce9-985b-482e-a606-f80725695ad3</webElementGuid>
+      <webElementGuid>4524f759-ea40-4deb-b1e0-696f465720cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='BtnExport-btnEl']/span[2]</value>
-      <webElementGuid>a705eb46-a338-4313-a2b8-c1c06fa0680d</webElementGuid>
+      <webElementGuid>40d3c797-240c-4d7c-92d6-754d9238f0c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span[2]</value>
-      <webElementGuid>ec1502e5-99ed-4b55-abc2-1f3043c74e7d</webElementGuid>
+      <webElementGuid>814355e1-ca37-4572-96bf-071789de6878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = 'BtnExport-btnInnerEl' and (text() = 'Export Current Page' or . = 'Export Current Page')]</value>
-      <webElementGuid>f1f2f6ab-efb7-4e37-b23a-b106ef5730a7</webElementGuid>
+      <webElementGuid>8deb983c-d9d9-438d-9b72-660e032a78f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 120.0.0.0,,,22-12-2023 15:46:03,22-12-2023 15:46:38,34.390s,PASSED
+,,,,,,,
+Test Cases/loginsuccess,Chrome 120.0.0.0,,,22-12-2023 15:46:03,22-12-2023 15:46:16,12.930s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 15:46:04,22-12-2023 15:46:05,1.702s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 15:46:05,22-12-2023 15:46:05,0.140s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 15:46:05,22-12-2023 15:46:06,1.076s,PASSED
+"setText(findTestObject(""Object Repository/loginsuccess/input_txtUsername""), username)",Chrome 120.0.0.0,,,22-12-2023 15:46:06,22-12-2023 15:46:07,0.943s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/loginsuccess/input_txtPassword""), password)",Chrome 120.0.0.0,,,22-12-2023 15:46:07,22-12-2023 15:46:08,0.354s,PASSED
+"click(findTestObject(""Object Repository/loginsuccess/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 15:46:08,22-12-2023 15:46:08,0.298s,PASSED
+delay(8),Chrome 120.0.0.0,,,22-12-2023 15:46:08,22-12-2023 15:46:16,8.029s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-12-2023 15:46:16,22-12-2023 15:46:16,0.156s,PASSED
+,,,,,,,
+Test Cases/loginfailed,Chrome 120.0.0.0,,,22-12-2023 15:46:16,22-12-2023 15:46:38,21.307s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,22-12-2023 15:46:16,22-12-2023 15:46:17,1.018s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,22-12-2023 15:46:17,22-12-2023 15:46:18,0.135s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,22-12-2023 15:46:18,22-12-2023 15:46:22,4.476s,PASSED
+"setText(findTestObject(""Object Repository/loginfailed/input_txtUsername""), username1)",Chrome 120.0.0.0,,,22-12-2023 15:46:22,22-12-2023 15:46:23,0.832s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/loginfailed/input_txtPassword""), password1)",Chrome 120.0.0.0,,,22-12-2023 15:46:23,22-12-2023 15:46:23,0.339s,PASSED
+"click(findTestObject(""Object Repository/loginfailed/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 15:46:23,22-12-2023 15:46:23,0.315s,PASSED
+waitForAlert(2),Chrome 120.0.0.0,,,22-12-2023 15:46:23,22-12-2023 15:46:26,2.077s,PASSED
+delay(4),Chrome 120.0.0.0,,,22-12-2023 15:46:26,22-12-2023 15:46:30,4.012s,PASSED
+refresh(STOP_ON_FAILURE),Chrome 120.0.0.0,,,22-12-2023 15:46:30,22-12-2023 15:46:30,0.325s,PASSED
+"setText(findTestObject(""Object Repository/loginfailed/input_txtUsername""), username2)",Chrome 120.0.0.0,,,22-12-2023 15:46:30,22-12-2023 15:46:31,0.826s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/loginfailed/input_txtPassword""), password2)",Chrome 120.0.0.0,,,22-12-2023 15:46:31,22-12-2023 15:46:31,0.317s,PASSED
+"click(findTestObject(""Object Repository/loginfailed/span_Login""))",Chrome 120.0.0.0,,,22-12-2023 15:46:31,22-12-2023 15:46:31,0.315s,PASSED
+waitForAlert(2),Chrome 120.0.0.0,,,22-12-2023 15:46:31,22-12-2023 15:46:33,2.055s,PASSED
+delay(4),Chrome 120.0.0.0,,,22-12-2023 15:46:33,22-12-2023 15:46:37,4.009s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 120.0.0.0,,,22-12-2023 15:46:37,22-12-2023 15:46:38,0.142s,PASSED
