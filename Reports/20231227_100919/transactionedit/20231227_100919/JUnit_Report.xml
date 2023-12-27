@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transactionedit" time="63.324" tests="1" failures="0" errors="0">
+   <testsuite name="transactionedit" tests="1" failures="0" errors="0" time="63.324" skipped="0" timestamp="27-12-2023T10:09:25" hostname="202102359 - 192.168.1.15" id="Test Suites/transactionedit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_100919\\transactionedit\\20231227_100919"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_100919\\transactionedit\\20231227_100919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - 192.168.1.15"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="8fa6d19b7b2b184efe3b549b5b37f3a6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/edittransactionsuccess" time="63.142" classname="Test Cases/edittransactionsuccess" status="PASSED">
+         <system-out><![CDATA[27-12-2023T10:09:25 - [TEST_CASE][PASSED] - Test Cases/edittransactionsuccess: Test Cases/edittransactionsuccess
+
+27-12-2023T10:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2023T10:09:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2023T10:09:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2023T10:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2023T10:09:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-12-2023T10:09:28 - [MESSAGE][PASSED] - Current window maximized
+
+27-12-2023T10:09:28 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T10:09:29 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T10:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/edittransaction/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/edittransaction/input_txtUsername'
+
+27-12-2023T10:09:30 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/edittransaction/input_txtUsername'
+
+27-12-2023T10:09:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/edittransaction/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/edittransaction/input_txtPassword'
+
+27-12-2023T10:09:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/edittransaction/input_txtPassword'
+
+27-12-2023T10:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_Login")): Object: 'Object Repository/edittransaction/span_Login' is clicked on
+
+27-12-2023T10:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_Login' is clicked on
+
+27-12-2023T10:09:30 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/edittransaction/span_Engineer Test")): Object: 'Object Repository/edittransaction/span_Engineer Test' is double clicked on
+
+27-12-2023T10:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_Engineer Test' is double clicked on
+
+27-12-2023T10:09:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/edittransaction/span_Transaction")): Object: 'Object Repository/edittransaction/span_Transaction' is double clicked on
+
+27-12-2023T10:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_Transaction' is double clicked on
+
+27-12-2023T10:09:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/edittransaction/span_View")): Object: 'Object Repository/edittransaction/span_View' is double clicked on
+
+27-12-2023T10:10:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[@id='ext-element-18']/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-12-2023T10:10:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/edittransaction/span_View'. Try using Self-healing.
+
+27-12-2023T10:10:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/edittransaction/span_View' was broken. Propose an alternative one: '//table[4]/tbody/tr/td/div/span'.
+
+27-12-2023T10:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_View' is double clicked on
+
+27-12-2023T10:10:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/edittransaction/input_textfield-1018"), "EM"): Text 'EM' is set on object 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:07 - [MESSAGE][PASSED] - Text 'EM' is set on object 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("edittransaction/input_textfield-1018"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_Edit")): Object: 'Object Repository/edittransaction/span_Edit' is clicked on
+
+27-12-2023T10:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_Edit' is clicked on
+
+27-12-2023T10:10:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/edittransaction/input_Employee_Name"), "Mayaaaaaa"): Text 'Mayaaaaaa' is set on object 'Object Repository/edittransaction/input_Employee_Name'
+
+27-12-2023T10:10:13 - [MESSAGE][PASSED] - Text 'Mayaaaaaa' is set on object 'Object Repository/edittransaction/input_Employee_Name'
+
+27-12-2023T10:10:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/divContentPlaceHolder1_FK_Multi_District_Co_a8f754")): Object: 'Object Repository/edittransaction/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T10:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T10:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_x-grid-checkcolumn")): Object: 'Object Repository/edittransaction/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T10:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T10:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_x-grid-checkcolumn_1")): Object: 'Object Repository/edittransaction/span_x-grid-checkcolumn_1' is clicked on
+
+27-12-2023T10:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_x-grid-checkcolumn_1' is clicked on
+
+27-12-2023T10:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/divtool-1038-toolEl")): Object: 'Object Repository/edittransaction/divtool-1038-toolEl' is clicked on
+
+27-12-2023T10:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/divtool-1038-toolEl' is clicked on
+
+27-12-2023T10:10:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_Save")): Object: 'Object Repository/edittransaction/span_Save' is clicked on
+
+27-12-2023T10:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_Save' is clicked on
+
+27-12-2023T10:10:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T10:10:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T10:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/edittransaction/span_OK")): Object: 'Object Repository/edittransaction/span_OK' is clicked on
+
+27-12-2023T10:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/edittransaction/span_OK' is clicked on
+
+27-12-2023T10:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/edittransaction/input_textfield-1018"), "EM00"): Text 'EM00' is set on object 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:23 - [MESSAGE][PASSED] - Text 'EM00' is set on object 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("edittransaction/input_textfield-1018"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/edittransaction/input_textfield-1018'
+
+27-12-2023T10:10:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-12-2023T10:10:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-12-2023T10:10:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-12-2023T10:10:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-12-2023T10:09:25 - [TEST_SUITE][PASSED] - transactionedit: Test Cases/edittransactionsuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

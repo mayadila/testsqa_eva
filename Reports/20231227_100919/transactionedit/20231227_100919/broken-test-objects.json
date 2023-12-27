@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/edittransaction/span_View",
+      "brokenLocator": "//td[@id\u003d\u0027ext-element-18\u0027]/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[4]/tbody/tr/td/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231227_100919/transactionedit/20231227_100919/Object Repository/edittransaction/span_View_position.png"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactionadd,Chrome 120.0.0.0,,,27-12-2023 15:23:27,27-12-2023 15:26:22,2m - 55.185s,PASSED
+,,,,,,,
+Test Cases/addnewrecordtransactionsuccess,Chrome 120.0.0.0,,,27-12-2023 15:23:27,27-12-2023 15:25:14,1m - 47.332s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 15:23:27,27-12-2023 15:23:29,1.864s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 15:23:29,27-12-2023 15:23:29,0.255s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 15:23:29,27-12-2023 15:23:31,1.805s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordsuccess/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 15:23:31,27-12-2023 15:23:32,0.864s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addnewrecordsuccess/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 15:23:32,27-12-2023 15:23:32,0.346s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 15:23:32,27-12-2023 15:23:33,0.330s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordsuccess/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 15:23:33,27-12-2023 15:23:35,2.312s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordsuccess/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 15:23:35,27-12-2023 15:23:36,0.701s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordsuccess/span_View""))",Chrome 120.0.0.0,,,27-12-2023 15:23:36,27-12-2023 15:24:07,31.772s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:07,27-12-2023 15:24:09,2.038s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_Add New Record""))",Chrome 120.0.0.0,,,27-12-2023 15:24:09,27-12-2023 15:24:10,0.566s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:10,27-12-2023 15:24:12,2.006s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordsuccess/input_Employee_ID""), empID)",Chrome 120.0.0.0,,,27-12-2023 15:24:12,27-12-2023 15:24:12,0.518s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:12,27-12-2023 15:24:15,2.010s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordsuccess/input_Employee_Name""), ""Maya"")",Chrome 120.0.0.0,,,27-12-2023 15:24:15,27-12-2023 15:24:15,0.471s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:15,27-12-2023 15:24:17,2.013s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/divDate_Birth-trigger-picker""))",Chrome 120.0.0.0,,,27-12-2023 15:24:17,27-12-2023 15:24:17,0.504s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_December 2023""))",Chrome 120.0.0.0,,,27-12-2023 15:24:17,27-12-2023 15:24:18,0.454s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/a_Mar""))",Chrome 120.0.0.0,,,27-12-2023 15:24:18,27-12-2023 15:24:18,0.438s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:24:18,27-12-2023 15:24:19,0.446s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:24:19,27-12-2023 15:24:19,0.473s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:24:19,27-12-2023 15:24:20,0.417s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/a_1994""))",Chrome 120.0.0.0,,,27-12-2023 15:24:20,27-12-2023 15:24:20,0.402s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_OK""))",Chrome 120.0.0.0,,,27-12-2023 15:24:20,27-12-2023 15:24:21,0.454s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:21,27-12-2023 15:24:23,2.007s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/div_24""))",Chrome 120.0.0.0,,,27-12-2023 15:24:23,27-12-2023 15:24:23,0.502s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:23,27-12-2023 15:24:25,2.013s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/input_App.isMerried_Group""))",Chrome 120.0.0.0,,,27-12-2023 15:24:25,27-12-2023 15:24:26,0.509s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/divFK_District_Code-trigger-picker""))",Chrome 120.0.0.0,,,27-12-2023 15:24:26,27-12-2023 15:24:26,0.459s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat""))",Chrome 120.0.0.0,,,27-12-2023 15:24:26,27-12-2023 15:24:58,31.535s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:24:58,27-12-2023 15:25:00,2.009s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/divContentPlaceHolder1_FK_Multi_District_Co_a8f754""))",Chrome 120.0.0.0,,,27-12-2023 15:25:00,27-12-2023 15:25:00,0.503s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_x-grid-checkcolumn""))",Chrome 120.0.0.0,,,27-12-2023 15:25:00,27-12-2023 15:25:01,0.531s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/divtool-1045-toolEl""))",Chrome 120.0.0.0,,,27-12-2023 15:25:01,27-12-2023 15:25:01,0.421s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:01,27-12-2023 15:25:03,2.012s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_Save""))",Chrome 120.0.0.0,,,27-12-2023 15:25:03,27-12-2023 15:25:04,0.480s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:04,27-12-2023 15:25:06,2.008s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordsuccess/span_OK_1""))",Chrome 120.0.0.0,,,27-12-2023 15:25:06,27-12-2023 15:25:06,0.476s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:06,27-12-2023 15:25:08,2.003s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordsuccess/input_textfield-1018""), ""Emp"")",Chrome 120.0.0.0,,,27-12-2023 15:25:08,27-12-2023 15:25:09,0.489s,PASSED
+"sendKeys(findTestObject(""addnewrecordsuccess/input_textfield-1018""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 15:25:09,27-12-2023 15:25:09,0.426s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 15:25:09,27-12-2023 15:25:14,5.017s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 15:25:14,27-12-2023 15:25:14,0.179s,PASSED
+,,,,,,,
+Test Cases/addnewrecordtransactionfailed,Chrome 120.0.0.0,,,27-12-2023 15:25:14,27-12-2023 15:26:22,1m - 7.707s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 15:25:14,27-12-2023 15:25:15,1.019s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 15:25:15,27-12-2023 15:25:15,0.129s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 15:25:15,27-12-2023 15:25:16,0.968s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordfailed/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 15:25:16,27-12-2023 15:25:17,0.858s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addnewrecordfailed/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 15:25:17,27-12-2023 15:25:18,0.328s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 15:25:18,27-12-2023 15:25:18,0.290s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordfailed/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 15:25:18,27-12-2023 15:25:20,2.006s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordfailed/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 15:25:20,27-12-2023 15:25:21,0.664s,PASSED
+"doubleClick(findTestObject(""Object Repository/addnewrecordfailed/span_View""))",Chrome 120.0.0.0,,,27-12-2023 15:25:21,27-12-2023 15:25:21,0.676s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:21,27-12-2023 15:25:23,2.013s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_Add New Record""))",Chrome 120.0.0.0,,,27-12-2023 15:25:23,27-12-2023 15:25:24,0.450s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:24,27-12-2023 15:25:26,2.011s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordfailed/input_Employee_ID""), ""EM001"")",Chrome 120.0.0.0,,,27-12-2023 15:25:26,27-12-2023 15:25:26,0.450s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:26,27-12-2023 15:25:28,2.014s,PASSED
+"setText(findTestObject(""Object Repository/addnewrecordfailed/input_Employee_Name""), ""Eva Maya"")",Chrome 120.0.0.0,,,27-12-2023 15:25:28,27-12-2023 15:25:29,0.503s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:29,27-12-2023 15:25:31,2.009s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/divDate_Birth-trigger-picker""))",Chrome 120.0.0.0,,,27-12-2023 15:25:31,27-12-2023 15:25:31,0.493s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_December 2023""))",Chrome 120.0.0.0,,,27-12-2023 15:25:31,27-12-2023 15:25:32,0.458s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/a_Mar""))",Chrome 120.0.0.0,,,27-12-2023 15:25:32,27-12-2023 15:25:32,0.394s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:25:32,27-12-2023 15:25:32,0.381s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:25:32,27-12-2023 15:25:33,0.381s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl""))",Chrome 120.0.0.0,,,27-12-2023 15:25:33,27-12-2023 15:25:33,0.400s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/a_1994""))",Chrome 120.0.0.0,,,27-12-2023 15:25:33,27-12-2023 15:25:34,0.399s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_OK""))",Chrome 120.0.0.0,,,27-12-2023 15:25:34,27-12-2023 15:25:34,0.398s,PASSED
+delay(1),Chrome 120.0.0.0,,,27-12-2023 15:25:34,27-12-2023 15:25:35,1.017s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/div_24""))",Chrome 120.0.0.0,,,27-12-2023 15:25:35,27-12-2023 15:25:35,0.461s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:25:35,27-12-2023 15:25:38,2.019s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/input_App.isMerried_Group""))",Chrome 120.0.0.0,,,27-12-2023 15:25:38,27-12-2023 15:25:38,0.400s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/divFK_District_Code-trigger-picker""))",Chrome 120.0.0.0,,,27-12-2023 15:25:38,27-12-2023 15:25:38,0.418s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat""))",Chrome 120.0.0.0,,,27-12-2023 15:25:38,27-12-2023 15:26:10,31.503s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:26:10,27-12-2023 15:26:12,2.008s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/divContentPlaceHolder1_FK_Multi_District_Co_a8f754""))",Chrome 120.0.0.0,,,27-12-2023 15:26:12,27-12-2023 15:26:12,0.471s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_x-grid-checkcolumn""))",Chrome 120.0.0.0,,,27-12-2023 15:26:12,27-12-2023 15:26:13,0.520s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/divtool-1045-toolEl""))",Chrome 120.0.0.0,,,27-12-2023 15:26:13,27-12-2023 15:26:13,0.414s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 15:26:13,27-12-2023 15:26:15,2.008s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_Save""))",Chrome 120.0.0.0,,,27-12-2023 15:26:15,27-12-2023 15:26:16,0.396s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_OK_1""))",Chrome 120.0.0.0,,,27-12-2023 15:26:16,27-12-2023 15:26:16,0.613s,PASSED
+"click(findTestObject(""Object Repository/addnewrecordfailed/span_Save""))",Chrome 120.0.0.0,,,27-12-2023 15:26:16,27-12-2023 15:26:17,0.460s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 15:26:17,27-12-2023 15:26:22,5.012s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 15:26:22,27-12-2023 15:26:22,0.143s,PASSED

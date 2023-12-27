@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactionsearching,Chrome 120.0.0.0,,,27-12-2023 07:50:23,27-12-2023 07:51:27,1m - 4.109s,PASSED
+,,,,,,,
+Test Cases/searchtransactionsuccess,Chrome 120.0.0.0,,,27-12-2023 07:50:23,27-12-2023 07:50:58,35.340s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 07:50:23,27-12-2023 07:50:26,2.466s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 07:50:26,27-12-2023 07:50:26,0.151s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 07:50:26,27-12-2023 07:50:32,5.641s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 07:50:32,27-12-2023 07:50:33,0.979s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/searchingtransactionsuccess/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 07:50:33,27-12-2023 07:50:33,0.500s,PASSED
+"click(findTestObject(""Object Repository/searchingtransactionsuccess/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 07:50:33,27-12-2023 07:50:33,0.440s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionsuccess/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 07:50:33,27-12-2023 07:50:36,2.206s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionsuccess/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 07:50:36,27-12-2023 07:50:36,0.616s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionsuccess/span_View""))",Chrome 120.0.0.0,,,27-12-2023 07:50:36,27-12-2023 07:50:37,0.589s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_textfield-1018""), ""Test"")",Chrome 120.0.0.0,Searching by employeeID,,27-12-2023 07:50:37,27-12-2023 07:50:38,0.881s,PASSED
+"sendKeys(findTestObject(""searchingtransactionsuccess/input_textfield-1018""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 07:50:38,27-12-2023 07:50:39,0.801s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:50:39,27-12-2023 07:50:41,2.090s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_textfield-1021""), ""Web"")",Chrome 120.0.0.0,Searching by EmployeeName,,27-12-2023 07:50:41,27-12-2023 07:50:41,0.448s,PASSED
+"sendKeys(findTestObject(""searchingtransactionsuccess/input_textfield-1021""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 07:50:41,27-12-2023 07:50:41,0.395s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:50:41,27-12-2023 07:50:44,2.019s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_textfield-1026""), ""No"")",Chrome 120.0.0.0,Searching by Is Merried,,27-12-2023 07:50:44,27-12-2023 07:50:44,0.476s,PASSED
+"sendKeys(findTestObject(""searchingtransactionsuccess/input_textfield-1026""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 07:50:44,27-12-2023 07:50:44,0.364s,PASSED
+delay(4),Chrome 120.0.0.0,,,27-12-2023 07:50:44,27-12-2023 07:50:48,4.020s,PASSED
+"clearText(findTestObject(""searchingtransactionsuccess/input_textfield-1018""))",Chrome 120.0.0.0,,,27-12-2023 07:50:48,27-12-2023 07:50:49,0.375s,PASSED
+"clearText(findTestObject(""searchingtransactionsuccess/input_textfield-1021""))",Chrome 120.0.0.0,,,27-12-2023 07:50:49,27-12-2023 07:50:49,0.395s,PASSED
+"clearText(findTestObject(""searchingtransactionsuccess/input_textfield-1026""))",Chrome 120.0.0.0,,,27-12-2023 07:50:49,27-12-2023 07:50:50,0.375s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_textfield-1032""), ""Jakarta"")",Chrome 120.0.0.0,Searching by  Mulyi District,,27-12-2023 07:50:50,27-12-2023 07:50:50,0.480s,PASSED
+"sendKeys(findTestObject(""searchingtransactionsuccess/input_textfield-1032""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 07:50:50,27-12-2023 07:50:50,0.375s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:50:50,27-12-2023 07:50:52,2.023s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionsuccess/input_textfield-1029""), ""Pusat"")",Chrome 120.0.0.0,Searching by  District,,27-12-2023 07:50:52,27-12-2023 07:50:53,0.416s,PASSED
+"sendKeys(findTestObject(""searchingtransactionsuccess/input_textfield-1029""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 07:50:53,27-12-2023 07:50:53,0.359s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 07:50:53,27-12-2023 07:50:58,5.018s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 07:50:58,27-12-2023 07:50:58,0.143s,PASSED
+,,,,,,,
+Test Cases/searchingtransactionfailed,Chrome 120.0.0.0,,,27-12-2023 07:50:58,27-12-2023 07:51:27,28.623s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 07:50:58,27-12-2023 07:50:59,0.987s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 07:50:59,27-12-2023 07:51:00,0.128s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 07:51:00,27-12-2023 07:51:01,0.980s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionfailed/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 07:51:01,27-12-2023 07:51:01,0.896s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/searchingtransactionfailed/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 07:51:01,27-12-2023 07:51:02,0.348s,PASSED
+"click(findTestObject(""Object Repository/searchingtransactionfailed/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 07:51:02,27-12-2023 07:51:02,0.330s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionfailed/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 07:51:02,27-12-2023 07:51:04,2.164s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionfailed/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 07:51:04,27-12-2023 07:51:05,0.645s,PASSED
+"doubleClick(findTestObject(""Object Repository/searchingtransactionfailed/span_View""))",Chrome 120.0.0.0,,,27-12-2023 07:51:05,27-12-2023 07:51:06,0.655s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:51:06,27-12-2023 07:51:08,2.014s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionfailed/input_ContentPlaceHolder1_ctl38""), ""1994-12-12"")",Chrome 120.0.0.0,,,27-12-2023 07:51:08,27-12-2023 07:51:08,0.422s,PASSED
+delay(4),Chrome 120.0.0.0,,,27-12-2023 07:51:08,27-12-2023 07:51:12,4.013s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionfailed/input_textfield-1021""), ""maya"")",Chrome 120.0.0.0,,,27-12-2023 07:51:12,27-12-2023 07:51:12,0.451s,PASSED
+delay(4),Chrome 120.0.0.0,,,27-12-2023 07:51:12,27-12-2023 07:51:16,4.017s,PASSED
+"clearText(findTestObject(""searchingtransactionfailed/input_ContentPlaceHolder1_ctl38""))",Chrome 120.0.0.0,,,27-12-2023 07:51:16,27-12-2023 07:51:17,0.413s,PASSED
+"clearText(findTestObject(""searchingtransactionfailed/input_textfield-1021""))",Chrome 120.0.0.0,,,27-12-2023 07:51:17,27-12-2023 07:51:17,0.408s,PASSED
+delay(4),Chrome 120.0.0.0,,,27-12-2023 07:51:17,27-12-2023 07:51:21,4.011s,PASSED
+"setText(findTestObject(""Object Repository/searchingtransactionfailed/input_textfield-1029""), ""Yogyakarta"")",Chrome 120.0.0.0,,,27-12-2023 07:51:21,27-12-2023 07:51:22,0.471s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 07:51:22,27-12-2023 07:51:27,5.016s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 07:51:27,27-12-2023 07:51:27,0.156s,PASSED

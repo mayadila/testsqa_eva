@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx')
-
-WebUI.setText(findTestObject('null'), 'EngineerTest1')
-
-WebUI.setEncryptedText(findTestObject('null'), 'W/OUHaE1QwcnZTXGuncx4g==')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.doubleClick(findTestObject('null'))
-
-WebUI.doubleClick(findTestObject('null'))
-
-WebUI.doubleClick(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-

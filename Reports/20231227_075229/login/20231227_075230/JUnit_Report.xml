@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="32.109" tests="2" failures="0" errors="0">
+   <testsuite name="login" tests="2" failures="0" errors="0" time="32.109" skipped="0" timestamp="27-12-2023T07:52:36" hostname="202102359 - 192.168.1.15" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_075229\\login\\20231227_075230"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_075229\\login\\20231227_075230\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - 192.168.1.15"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="f9d7ba5a4b40c18e46271e25609f4644"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/loginsuccess" time="14.007" classname="Test Cases/loginsuccess" status="PASSED">
+         <system-out><![CDATA[27-12-2023T07:52:36 - [TEST_CASE][PASSED] - Test Cases/loginsuccess: Test Cases/loginsuccess
+
+27-12-2023T07:52:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2023T07:52:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2023T07:52:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2023T07:52:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2023T07:52:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-12-2023T07:52:39 - [MESSAGE][PASSED] - Current window maximized
+
+27-12-2023T07:52:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T07:52:40 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T07:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/loginsuccess/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/loginsuccess/input_txtUsername'
+
+27-12-2023T07:52:41 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/loginsuccess/input_txtUsername'
+
+27-12-2023T07:52:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/loginsuccess/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/loginsuccess/input_txtPassword'
+
+27-12-2023T07:52:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/loginsuccess/input_txtPassword'
+
+27-12-2023T07:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/loginsuccess/span_Login")): Object: 'Object Repository/loginsuccess/span_Login' is clicked on
+
+27-12-2023T07:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/loginsuccess/span_Login' is clicked on
+
+27-12-2023T07:52:42 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+27-12-2023T07:52:50 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+27-12-2023T07:52:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-12-2023T07:52:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginfailed" time="17.954" classname="Test Cases/loginfailed" status="PASSED">
+         <system-out><![CDATA[27-12-2023T07:52:50 - [TEST_CASE][PASSED] - Test Cases/loginfailed: Test Cases/loginfailed
+
+27-12-2023T07:52:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2023T07:52:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2023T07:52:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2023T07:52:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2023T07:52:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-12-2023T07:52:51 - [MESSAGE][PASSED] - Current window maximized
+
+27-12-2023T07:52:51 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T07:52:52 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T07:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/loginfailed/input_txtUsername"), username1): Text 'EngineerTest1' is set on object 'Object Repository/loginfailed/input_txtUsername'
+
+27-12-2023T07:52:53 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/loginfailed/input_txtUsername'
+
+27-12-2023T07:52:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/loginfailed/input_txtPassword"), password1): Text ****** has been set on object 'Object Repository/loginfailed/input_txtPassword'
+
+27-12-2023T07:52:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/loginfailed/input_txtPassword'
+
+27-12-2023T07:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/loginfailed/span_Login")): Object: 'Object Repository/loginfailed/span_Login' is clicked on
+
+27-12-2023T07:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/loginfailed/span_Login' is clicked on
+
+27-12-2023T07:52:54 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+27-12-2023T07:52:56 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+27-12-2023T07:52:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-12-2023T07:53:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-12-2023T07:53:00 - [TEST_STEP][PASSED] - refresh(STOP_ON_FAILURE): Refresh successfully
+
+27-12-2023T07:53:01 - [MESSAGE][PASSED] - Refresh successfully
+
+27-12-2023T07:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/loginfailed/input_txtUsername"), username2): Text 'EngineerTest' is set on object 'Object Repository/loginfailed/input_txtUsername'
+
+27-12-2023T07:53:01 - [MESSAGE][PASSED] - Text 'EngineerTest' is set on object 'Object Repository/loginfailed/input_txtUsername'
+
+27-12-2023T07:53:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/loginfailed/input_txtPassword"), password2): Text ****** has been set on object 'Object Repository/loginfailed/input_txtPassword'
+
+27-12-2023T07:53:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/loginfailed/input_txtPassword'
+
+27-12-2023T07:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/loginfailed/span_Login")): Object: 'Object Repository/loginfailed/span_Login' is clicked on
+
+27-12-2023T07:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/loginfailed/span_Login' is clicked on
+
+27-12-2023T07:53:02 - [TEST_STEP][PASSED] - waitForAlert(2): No alert found after 2 second(s).
+
+27-12-2023T07:53:04 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+27-12-2023T07:53:04 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-12-2023T07:53:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-12-2023T07:53:08 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+27-12-2023T07:53:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-12-2023T07:52:36 - [TEST_SUITE][PASSED] - login: Test Cases/loginfailed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

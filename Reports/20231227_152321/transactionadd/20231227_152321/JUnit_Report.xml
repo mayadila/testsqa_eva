@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="transactionadd" time="175.185" tests="2" failures="0" errors="0">
+   <testsuite name="transactionadd" tests="2" failures="0" errors="0" time="175.185" skipped="0" timestamp="27-12-2023T15:23:27" hostname="202102359 - 192.168.1.15" id="Test Suites/transactionadd">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_152321\\transactionadd\\20231227_152321"/>
+         <property name="logFiles" value="C:\\Users\\202102359\\git\\testsqa_eva\\Reports\\20231227_152321\\transactionadd\\20231227_152321\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="202102359 - 192.168.1.15"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="e6ea649b6090ba45b7780197dd612530"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/addnewrecordtransactionsuccess" time="107.332" classname="Test Cases/addnewrecordtransactionsuccess" status="PASSED">
+         <system-out><![CDATA[27-12-2023T15:23:27 - [TEST_CASE][PASSED] - Test Cases/addnewrecordtransactionsuccess: Test Cases/addnewrecordtransactionsuccess
+
+27-12-2023T15:23:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2023T15:23:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2023T15:23:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2023T15:23:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2023T15:23:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-12-2023T15:23:29 - [MESSAGE][PASSED] - Current window maximized
+
+27-12-2023T15:23:29 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T15:23:31 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T15:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordsuccess/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/addnewrecordsuccess/input_txtUsername'
+
+27-12-2023T15:23:32 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/addnewrecordsuccess/input_txtUsername'
+
+27-12-2023T15:23:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addnewrecordsuccess/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/addnewrecordsuccess/input_txtPassword'
+
+27-12-2023T15:23:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addnewrecordsuccess/input_txtPassword'
+
+27-12-2023T15:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_Login")): Object: 'Object Repository/addnewrecordsuccess/span_Login' is clicked on
+
+27-12-2023T15:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_Login' is clicked on
+
+27-12-2023T15:23:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordsuccess/span_Engineer Test")): Object: 'Object Repository/addnewrecordsuccess/span_Engineer Test' is double clicked on
+
+27-12-2023T15:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_Engineer Test' is double clicked on
+
+27-12-2023T15:23:35 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordsuccess/span_Transaction")): Object: 'Object Repository/addnewrecordsuccess/span_Transaction' is double clicked on
+
+27-12-2023T15:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_Transaction' is double clicked on
+
+27-12-2023T15:23:36 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordsuccess/span_View")): Object: 'Object Repository/addnewrecordsuccess/span_View' is double clicked on
+
+27-12-2023T15:24:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[@id='ext-element-18']/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-12-2023T15:24:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/addnewrecordsuccess/span_View'. Try using Self-healing.
+
+27-12-2023T15:24:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/addnewrecordsuccess/span_View' was broken. Propose an alternative one: '//table[4]/tbody/tr/td/div/span'.
+
+27-12-2023T15:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_View' is double clicked on
+
+27-12-2023T15:24:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_Add New Record")): Object: 'Object Repository/addnewrecordsuccess/span_Add New Record' is clicked on
+
+27-12-2023T15:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_Add New Record' is clicked on
+
+27-12-2023T15:24:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordsuccess/input_Employee_ID"), empID): Text 'EMP003' is set on object 'Object Repository/addnewrecordsuccess/input_Employee_ID'
+
+27-12-2023T15:24:12 - [MESSAGE][PASSED] - Text 'EMP003' is set on object 'Object Repository/addnewrecordsuccess/input_Employee_ID'
+
+27-12-2023T15:24:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordsuccess/input_Employee_Name"), "Maya"): Text 'Maya' is set on object 'Object Repository/addnewrecordsuccess/input_Employee_Name'
+
+27-12-2023T15:24:15 - [MESSAGE][PASSED] - Text 'Maya' is set on object 'Object Repository/addnewrecordsuccess/input_Employee_Name'
+
+27-12-2023T15:24:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/divDate_Birth-trigger-picker")): Object: 'Object Repository/addnewrecordsuccess/divDate_Birth-trigger-picker' is clicked on
+
+27-12-2023T15:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/divDate_Birth-trigger-picker' is clicked on
+
+27-12-2023T15:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_December 2023")): Object: 'Object Repository/addnewrecordsuccess/span_December 2023' is clicked on
+
+27-12-2023T15:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_December 2023' is clicked on
+
+27-12-2023T15:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/a_Mar")): Object: 'Object Repository/addnewrecordsuccess/a_Mar' is clicked on
+
+27-12-2023T15:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/a_Mar' is clicked on
+
+27-12-2023T15:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/a_1994")): Object: 'Object Repository/addnewrecordsuccess/a_1994' is clicked on
+
+27-12-2023T15:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/a_1994' is clicked on
+
+27-12-2023T15:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_OK")): Object: 'Object Repository/addnewrecordsuccess/span_OK' is clicked on
+
+27-12-2023T15:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_OK' is clicked on
+
+27-12-2023T15:24:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/div_24")): Object: 'Object Repository/addnewrecordsuccess/div_24' is clicked on
+
+27-12-2023T15:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/div_24' is clicked on
+
+27-12-2023T15:24:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:24:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/input_App.isMerried_Group")): Object: 'Object Repository/addnewrecordsuccess/input_App.isMerried_Group' is clicked on
+
+27-12-2023T15:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/input_App.isMerried_Group' is clicked on
+
+27-12-2023T15:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/divFK_District_Code-trigger-picker")): Object: 'Object Repository/addnewrecordsuccess/divFK_District_Code-trigger-picker' is clicked on
+
+27-12-2023T15:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/divFK_District_Code-trigger-picker' is clicked on
+
+27-12-2023T15:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat")): Object: 'Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat' is clicked on
+
+27-12-2023T15:24:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='ext-element-23']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-12-2023T15:24:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat'. Try using Self-healing.
+
+27-12-2023T15:24:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat' was broken. Propose an alternative one: '//ul[@id='FK_District_Code-picker-listEl']/li[10]'.
+
+27-12-2023T15:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/li_D010 - Jakarta Barat' is clicked on
+
+27-12-2023T15:24:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/divContentPlaceHolder1_FK_Multi_District_Co_a8f754")): Object: 'Object Repository/addnewrecordsuccess/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T15:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T15:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_x-grid-checkcolumn")): Object: 'Object Repository/addnewrecordsuccess/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T15:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T15:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/divtool-1045-toolEl")): Object: 'Object Repository/addnewrecordsuccess/divtool-1045-toolEl' is clicked on
+
+27-12-2023T15:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/divtool-1045-toolEl' is clicked on
+
+27-12-2023T15:25:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_Save")): Object: 'Object Repository/addnewrecordsuccess/span_Save' is clicked on
+
+27-12-2023T15:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_Save' is clicked on
+
+27-12-2023T15:25:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordsuccess/span_OK_1")): Object: 'Object Repository/addnewrecordsuccess/span_OK_1' is clicked on
+
+27-12-2023T15:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordsuccess/span_OK_1' is clicked on
+
+27-12-2023T15:25:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordsuccess/input_textfield-1018"), "Emp"): Text 'Emp' is set on object 'Object Repository/addnewrecordsuccess/input_textfield-1018'
+
+27-12-2023T15:25:09 - [MESSAGE][PASSED] - Text 'Emp' is set on object 'Object Repository/addnewrecordsuccess/input_textfield-1018'
+
+27-12-2023T15:25:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("addnewrecordsuccess/input_textfield-1018"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/addnewrecordsuccess/input_textfield-1018'
+
+27-12-2023T15:25:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/addnewrecordsuccess/input_textfield-1018'
+
+27-12-2023T15:25:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-12-2023T15:25:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-12-2023T15:25:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-12-2023T15:25:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/addnewrecordtransactionfailed" time="67.707" classname="Test Cases/addnewrecordtransactionfailed" status="PASSED">
+         <system-out><![CDATA[27-12-2023T15:25:14 - [TEST_CASE][PASSED] - Test Cases/addnewrecordtransactionfailed: Test Cases/addnewrecordtransactionfailed
+
+27-12-2023T15:25:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2023T15:25:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2023T15:25:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2023T15:25:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2023T15:25:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-12-2023T15:25:15 - [MESSAGE][PASSED] - Current window maximized
+
+27-12-2023T15:25:15 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T15:25:16 - [MESSAGE][PASSED] - Navigate to 'https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx' successfully
+
+27-12-2023T15:25:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordfailed/input_txtUsername"), username): Text 'EngineerTest1' is set on object 'Object Repository/addnewrecordfailed/input_txtUsername'
+
+27-12-2023T15:25:17 - [MESSAGE][PASSED] - Text 'EngineerTest1' is set on object 'Object Repository/addnewrecordfailed/input_txtUsername'
+
+27-12-2023T15:25:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addnewrecordfailed/input_txtPassword"), password): Text ****** has been set on object 'Object Repository/addnewrecordfailed/input_txtPassword'
+
+27-12-2023T15:25:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addnewrecordfailed/input_txtPassword'
+
+27-12-2023T15:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_Login")): Object: 'Object Repository/addnewrecordfailed/span_Login' is clicked on
+
+27-12-2023T15:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Login' is clicked on
+
+27-12-2023T15:25:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordfailed/span_Engineer Test")): Object: 'Object Repository/addnewrecordfailed/span_Engineer Test' is double clicked on
+
+27-12-2023T15:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Engineer Test' is double clicked on
+
+27-12-2023T15:25:20 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordfailed/span_Transaction")): Object: 'Object Repository/addnewrecordfailed/span_Transaction' is double clicked on
+
+27-12-2023T15:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Transaction' is double clicked on
+
+27-12-2023T15:25:21 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/addnewrecordfailed/span_View")): Object: 'Object Repository/addnewrecordfailed/span_View' is double clicked on
+
+27-12-2023T15:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_View' is double clicked on
+
+27-12-2023T15:25:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_Add New Record")): Object: 'Object Repository/addnewrecordfailed/span_Add New Record' is clicked on
+
+27-12-2023T15:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Add New Record' is clicked on
+
+27-12-2023T15:25:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordfailed/input_Employee_ID"), "EM001"): Text 'EM001' is set on object 'Object Repository/addnewrecordfailed/input_Employee_ID'
+
+27-12-2023T15:25:26 - [MESSAGE][PASSED] - Text 'EM001' is set on object 'Object Repository/addnewrecordfailed/input_Employee_ID'
+
+27-12-2023T15:25:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addnewrecordfailed/input_Employee_Name"), "Eva Maya"): Text 'Eva Maya' is set on object 'Object Repository/addnewrecordfailed/input_Employee_Name'
+
+27-12-2023T15:25:29 - [MESSAGE][PASSED] - Text 'Eva Maya' is set on object 'Object Repository/addnewrecordfailed/input_Employee_Name'
+
+27-12-2023T15:25:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/divDate_Birth-trigger-picker")): Object: 'Object Repository/addnewrecordfailed/divDate_Birth-trigger-picker' is clicked on
+
+27-12-2023T15:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/divDate_Birth-trigger-picker' is clicked on
+
+27-12-2023T15:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_December 2023")): Object: 'Object Repository/addnewrecordfailed/span_December 2023' is clicked on
+
+27-12-2023T15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_December 2023' is clicked on
+
+27-12-2023T15:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/a_Mar")): Object: 'Object Repository/addnewrecordfailed/a_Mar' is clicked on
+
+27-12-2023T15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/a_Mar' is clicked on
+
+27-12-2023T15:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl")): Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/amonthpicker-1017-prevEl' is clicked on
+
+27-12-2023T15:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/a_1994")): Object: 'Object Repository/addnewrecordfailed/a_1994' is clicked on
+
+27-12-2023T15:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/a_1994' is clicked on
+
+27-12-2023T15:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_OK")): Object: 'Object Repository/addnewrecordfailed/span_OK' is clicked on
+
+27-12-2023T15:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_OK' is clicked on
+
+27-12-2023T15:25:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+27-12-2023T15:25:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-12-2023T15:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/div_24")): Object: 'Object Repository/addnewrecordfailed/div_24' is clicked on
+
+27-12-2023T15:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/div_24' is clicked on
+
+27-12-2023T15:25:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:25:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/input_App.isMerried_Group")): Object: 'Object Repository/addnewrecordfailed/input_App.isMerried_Group' is clicked on
+
+27-12-2023T15:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/input_App.isMerried_Group' is clicked on
+
+27-12-2023T15:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/divFK_District_Code-trigger-picker")): Object: 'Object Repository/addnewrecordfailed/divFK_District_Code-trigger-picker' is clicked on
+
+27-12-2023T15:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/divFK_District_Code-trigger-picker' is clicked on
+
+27-12-2023T15:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat")): Object: 'Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat' is clicked on
+
+27-12-2023T15:26:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='ext-element-24']'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-12-2023T15:26:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat'. Try using Self-healing.
+
+27-12-2023T15:26:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat' was broken. Propose an alternative one: '//ul[@id='FK_District_Code-picker-listEl']/li[4]'.
+
+27-12-2023T15:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/li_D004 - Jakarta Pusat' is clicked on
+
+27-12-2023T15:26:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:26:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/divContentPlaceHolder1_FK_Multi_District_Co_a8f754")): Object: 'Object Repository/addnewrecordfailed/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T15:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/divContentPlaceHolder1_FK_Multi_District_Co_a8f754' is clicked on
+
+27-12-2023T15:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_x-grid-checkcolumn")): Object: 'Object Repository/addnewrecordfailed/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T15:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_x-grid-checkcolumn' is clicked on
+
+27-12-2023T15:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/divtool-1045-toolEl")): Object: 'Object Repository/addnewrecordfailed/divtool-1045-toolEl' is clicked on
+
+27-12-2023T15:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/divtool-1045-toolEl' is clicked on
+
+27-12-2023T15:26:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-12-2023T15:26:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-12-2023T15:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_Save")): Object: 'Object Repository/addnewrecordfailed/span_Save' is clicked on
+
+27-12-2023T15:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Save' is clicked on
+
+27-12-2023T15:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_OK_1")): Object: 'Object Repository/addnewrecordfailed/span_OK_1' is clicked on
+
+27-12-2023T15:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_OK_1' is clicked on
+
+27-12-2023T15:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addnewrecordfailed/span_Save")): Object: 'Object Repository/addnewrecordfailed/span_Save' is clicked on
+
+27-12-2023T15:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/addnewrecordfailed/span_Save' is clicked on
+
+27-12-2023T15:26:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-12-2023T15:26:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-12-2023T15:26:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-12-2023T15:26:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-12-2023T15:23:27 - [TEST_SUITE][PASSED] - transactionadd: Test Cases/addnewrecordtransactionfailed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

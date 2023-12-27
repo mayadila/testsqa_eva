@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactiondownload,Chrome 120.0.0.0,,,27-12-2023 07:49:12,27-12-2023 07:49:55,42.208s,PASSED
+,,,,,,,
+Test Cases/viewtransaction,Chrome 120.0.0.0,,,27-12-2023 07:49:13,27-12-2023 07:49:29,16.188s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 07:49:13,27-12-2023 07:49:14,1.605s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 07:49:14,27-12-2023 07:49:15,0.137s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 07:49:15,27-12-2023 07:49:16,1.096s,PASSED
+"setText(findTestObject(""Object Repository/viewtransaction/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 07:49:16,27-12-2023 07:49:16,0.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/viewtransaction/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 07:49:16,27-12-2023 07:49:17,0.358s,PASSED
+"click(findTestObject(""Object Repository/viewtransaction/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 07:49:17,27-12-2023 07:49:17,0.348s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 07:49:17,27-12-2023 07:49:19,2.139s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 07:49:19,27-12-2023 07:49:20,0.601s,PASSED
+"doubleClick(findTestObject(""Object Repository/viewtransaction/span_View""))",Chrome 120.0.0.0,,,27-12-2023 07:49:20,27-12-2023 07:49:21,0.649s,PASSED
+delay(8),Chrome 120.0.0.0,,,27-12-2023 07:49:21,27-12-2023 07:49:29,8.034s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 07:49:29,27-12-2023 07:49:29,0.174s,PASSED
+,,,,,,,
+Test Cases/downloadtransaction,Chrome 120.0.0.0,,,27-12-2023 07:49:29,27-12-2023 07:49:55,25.857s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 07:49:29,27-12-2023 07:49:30,0.988s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 07:49:30,27-12-2023 07:49:30,0.125s,PASSED
+"navigateToUrl(""https://ndsrndserver.southeastasia.cloudapp.azure.com/NFQA_Test/Login.aspx?ReturnUrl=%2fNFQA_Test%2fDefault.aspx"")",Chrome 120.0.0.0,,,27-12-2023 07:49:30,27-12-2023 07:49:31,1.059s,PASSED
+"setText(findTestObject(""Object Repository/downloadtransaction/input_txtUsername""), ""EngineerTest1"")",Chrome 120.0.0.0,,,27-12-2023 07:49:31,27-12-2023 07:49:32,0.889s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/downloadtransaction/input_txtPassword""), ""W/OUHaE1QwcnZTXGuncx4g=="")",Chrome 120.0.0.0,,,27-12-2023 07:49:32,27-12-2023 07:49:32,0.350s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 07:49:32,27-12-2023 07:49:33,0.325s,PASSED
+"doubleClick(findTestObject(""Object Repository/downloadtransaction/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 07:49:33,27-12-2023 07:49:35,2.145s,PASSED
+"doubleClick(findTestObject(""Object Repository/downloadtransaction/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 07:49:35,27-12-2023 07:49:35,0.648s,PASSED
+"doubleClick(findTestObject(""Object Repository/downloadtransaction/span_View""))",Chrome 120.0.0.0,,,27-12-2023 07:49:35,27-12-2023 07:49:36,0.552s,PASSED
+delay(3),Chrome 120.0.0.0,,,27-12-2023 07:49:36,27-12-2023 07:49:39,3.007s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Export Current Page""))",Chrome 120.0.0.0,,,27-12-2023 07:49:39,27-12-2023 07:49:39,0.437s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:49:39,27-12-2023 07:49:41,2.017s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Export All Page""))",Chrome 120.0.0.0,,,27-12-2023 07:49:41,27-12-2023 07:49:42,0.385s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:49:42,27-12-2023 07:49:44,2.008s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/divContentPlaceHolder1_cboExportExcel-trigg_294ccd""))",Chrome 120.0.0.0,,,27-12-2023 07:49:44,27-12-2023 07:49:44,0.420s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/li_CSV""))",Chrome 120.0.0.0,,,27-12-2023 07:49:44,27-12-2023 07:49:45,0.408s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:49:45,27-12-2023 07:49:47,2.010s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Export Current Page""))",Chrome 120.0.0.0,,,27-12-2023 07:49:47,27-12-2023 07:49:47,0.404s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 07:49:47,27-12-2023 07:49:49,2.012s,PASSED
+"click(findTestObject(""Object Repository/downloadtransaction/span_Export All Page""))",Chrome 120.0.0.0,,,27-12-2023 07:49:49,27-12-2023 07:49:49,0.425s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 07:49:49,27-12-2023 07:49:54,5.007s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 07:49:54,27-12-2023 07:49:55,0.132s,PASSED

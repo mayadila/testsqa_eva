@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transactionedit,Chrome 120.0.0.0,,,27-12-2023 10:09:25,27-12-2023 10:10:28,1m - 3.324s,PASSED
+,,,,,,,
+Test Cases/edittransactionsuccess,Chrome 120.0.0.0,,,27-12-2023 10:09:25,27-12-2023 10:10:28,1m - 3.142s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-12-2023 10:09:25,27-12-2023 10:09:27,1.898s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,27-12-2023 10:09:27,27-12-2023 10:09:28,0.142s,PASSED
+navigateToUrl(url),Chrome 120.0.0.0,,,27-12-2023 10:09:28,27-12-2023 10:09:29,1.285s,PASSED
+"setText(findTestObject(""Object Repository/edittransaction/input_txtUsername""), username)",Chrome 120.0.0.0,,,27-12-2023 10:09:29,27-12-2023 10:09:30,0.931s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/edittransaction/input_txtPassword""), password)",Chrome 120.0.0.0,,,27-12-2023 10:09:30,27-12-2023 10:09:30,0.341s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_Login""))",Chrome 120.0.0.0,,,27-12-2023 10:09:30,27-12-2023 10:09:30,0.333s,PASSED
+"doubleClick(findTestObject(""Object Repository/edittransaction/span_Engineer Test""))",Chrome 120.0.0.0,,,27-12-2023 10:09:30,27-12-2023 10:09:33,2.087s,PASSED
+"doubleClick(findTestObject(""Object Repository/edittransaction/span_Transaction""))",Chrome 120.0.0.0,,,27-12-2023 10:09:33,27-12-2023 10:09:33,0.642s,PASSED
+"doubleClick(findTestObject(""Object Repository/edittransaction/span_View""))",Chrome 120.0.0.0,,,27-12-2023 10:09:33,27-12-2023 10:10:05,31.605s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:05,27-12-2023 10:10:07,2.034s,PASSED
+"setText(findTestObject(""Object Repository/edittransaction/input_textfield-1018""), ""EM"")",Chrome 120.0.0.0,,,27-12-2023 10:10:07,27-12-2023 10:10:07,0.480s,PASSED
+"sendKeys(findTestObject(""edittransaction/input_textfield-1018""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 10:10:07,27-12-2023 10:10:08,0.380s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:08,27-12-2023 10:10:10,2.013s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_Edit""))",Chrome 120.0.0.0,,,27-12-2023 10:10:10,27-12-2023 10:10:10,0.483s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:10,27-12-2023 10:10:12,2.007s,PASSED
+"setText(findTestObject(""Object Repository/edittransaction/input_Employee_Name""), ""Mayaaaaaa"")",Chrome 120.0.0.0,,,27-12-2023 10:10:12,27-12-2023 10:10:13,0.523s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:13,27-12-2023 10:10:15,2.028s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/divContentPlaceHolder1_FK_Multi_District_Co_a8f754""))",Chrome 120.0.0.0,,,27-12-2023 10:10:15,27-12-2023 10:10:15,0.565s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_x-grid-checkcolumn""))",Chrome 120.0.0.0,,,27-12-2023 10:10:15,27-12-2023 10:10:16,0.419s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_x-grid-checkcolumn_1""))",Chrome 120.0.0.0,,,27-12-2023 10:10:16,27-12-2023 10:10:16,0.436s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/divtool-1038-toolEl""))",Chrome 120.0.0.0,,,27-12-2023 10:10:16,27-12-2023 10:10:17,0.422s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:17,27-12-2023 10:10:19,2.020s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_Save""))",Chrome 120.0.0.0,,,27-12-2023 10:10:19,27-12-2023 10:10:19,0.472s,PASSED
+delay(2),Chrome 120.0.0.0,,,27-12-2023 10:10:19,27-12-2023 10:10:21,2.019s,PASSED
+"click(findTestObject(""Object Repository/edittransaction/span_OK""))",Chrome 120.0.0.0,,,27-12-2023 10:10:21,27-12-2023 10:10:22,0.469s,PASSED
+"setText(findTestObject(""Object Repository/edittransaction/input_textfield-1018""), ""EM00"")",Chrome 120.0.0.0,,,27-12-2023 10:10:22,27-12-2023 10:10:23,1.046s,PASSED
+"sendKeys(findTestObject(""edittransaction/input_textfield-1018""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,27-12-2023 10:10:23,27-12-2023 10:10:23,0.583s,PASSED
+delay(5),Chrome 120.0.0.0,,,27-12-2023 10:10:23,27-12-2023 10:10:28,5.008s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-12-2023 10:10:28,27-12-2023 10:10:28,0.174s,PASSED

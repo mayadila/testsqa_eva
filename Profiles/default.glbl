@@ -39,4 +39,9 @@
       <initValue>'W/OUHaE1QwcnZTXGuncx4g=='</initValue>
       <name>password2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Maaf belum bisa set uniq id</description>
+      <initValue>'EMP003'</initValue>
+      <name>empID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
